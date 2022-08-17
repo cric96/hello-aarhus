@@ -51,13 +51,14 @@ Background on Software Engineering
 {{< /row >}}
 
 ---
-{{< slide transition="zoom" >}}
+{{< slide transition="zoom" background-image="cpsw.png" background-transition="zoom">}}
 {{% vertical start%}}
 
-# Cyber Phisysical Swarms
+# Cyber Phisysical Swarms # {.white-text }
 
 ---
 
+{{< slide background-color="white">}}
 # Examples
 - {{% fragment %}} One {{% /fragment %}}
 - {{% fragment %}}Two{{% /fragment %}}
