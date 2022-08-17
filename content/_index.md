@@ -31,14 +31,28 @@ Don't forget to thank the audience.
 
 # About Me
 ## In a nutshell
-{{% fragment %}} PhD Student @ Università di Bologna -- Alma Mater Studiorum {{% /fragment %}}  
-{{% fragment %}} Background on Software Engineering {{% /fragment %}}  
-{{% fragment %}} **Main Research Interests**{{% /fragment %}}  
-{{% fragment %}} A {{% /fragment %}}
+{{% timeline start %}} 
+PhD Student @ Università di Bologna -- Alma Mater Studiorum  
+{{% timeline end %}}    
+{{% timeline start %}} 
+Background on Software Engineering 
+{{% timeline end %}}  
+{{% timeline start %}} 
+**Main Research Interests** 
+{{% timeline end %}}
+{{< row >}}
+{{% timeline start "fade-in col" %}} 
+{{< image height="35" src="/cas.gif" caption="Large Scale Distributed Systems" >}} 
+{{% timeline end %}}
+{{% timeline start "fade-in col" %}} 
+{{< image height="35" src="/collective-artificial-intellingence.gif" caption="Collective Artificial Intelligence" >}} 
+{{% timeline end %}}
+
+{{< /row >}}
 
 ---
 {{< slide transition="zoom" >}}
-{{% vertical-start %}}
+{{% vertical start%}}
 
 # Cyber Phisysical Swarms
 
@@ -49,12 +63,12 @@ Don't forget to thank the audience.
 - {{% fragment %}}Two{{% /fragment %}}
 - {{% fragment %}}Three{{% /fragment %}}
 
-{{% vertical-end %}}
+{{% vertical end %}}
 
 ---
 
 {{< slide transition="zoom" >}}
-{{% vertical-start %}}
+{{% vertical start%}}
 
 # Aggregate Computing
 **Programming the aggregate!**
@@ -65,15 +79,15 @@ Don't forget to thank the audience.
 
 ---
 
-{{% vertical-end %}}
+{{% vertical end %}}
 {{< slide transition="zoom" >}}
 
-{{% vertical-start %}}
+{{% vertical start%}}
 
 # Research Directions
 
-{{< fragment >}} Hybrid Programing Model: Learning <i class="fa-solid  fa-plus "></i> Programming {{< /fragment >}}  
-{{% fragment %}} Flexible Deployment of Collective Application {{% /fragment %}}  
+{{< fragment >}} Hybrid Programing Model: Learning {{% fa-solid plus %}} Programming {{< /fragment >}}  
+{{< fragment >}} Flexible Deployment of Collective Application {{< /fragment >}}  
 
 ---
 
@@ -83,7 +97,7 @@ Don't forget to thank the audience.
 - {{< fragment >}} Hybrid Programing Model: Learning <i class="fa-solid  fa-plus "></i> Programming {{< /fragment >}}  
 - {{% fragment %}} Flexible Deployment of Collective Application {{% /fragment %}}  
 
-{{% vertical-end %}}
+{{% vertical end %}}
 
 ---
 
