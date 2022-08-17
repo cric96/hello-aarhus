@@ -11,9 +11,9 @@ aliases = [
 +++
 
 
-# A good title
-## Subtitles are important
-**Talk @ Somewhere**
+# Engineering Cyber Physical Swarms # {class="r-fit-text" }
+
+**Talk @ Aarhus Universitat**
 
 🎤 *Gianluca Aguzzi*
 
@@ -230,15 +230,4 @@ raw Markdown line up prettily. You can also use inline Markdown.
 * {{< frag c="pluto" >}}
 
 ---
-```mermaid
-gitGraph
-       commit
-       commit
-       branch develop
-       commit
-       commit
-       commit
-       checkout main
-       commit
-       commit
-```
+![diagram](./foo-1.svg)
