@@ -1,5 +1,5 @@
 {{ if eq "start" (.Get 0) }}
-<span class='fragment {{ .Get 1 }}' {{ with .Get "index" }}data-fragment-index='{{ . }}'{{ end }} style="color: #888;">
+<span class='fragment {{ .Get 1 }}' {{ with .Get 2 }}data-fragment-index='{{ . }}'{{ end }} style="color: #888;">
 {{ else if eq (.Get 0) "end" }}
 </span>
 {{end}}

@@ -30,7 +30,6 @@ Don't forget to thank the audience.
 ---
 
 # About Me
-## In a nutshell
 {{% timeline start %}} 
 PhD Student @ Università di Bologna -- Alma Mater Studiorum  
 {{% timeline end %}}    
@@ -51,19 +50,71 @@ Background on Software Engineering
 {{< /row >}}
 
 ---
-{{< slide transition="zoom" background-image="cpsw.png" background-transition="zoom">}}
+
+# Table of Content
+- {{% fragment %}} #### Introduction On Cyber-Physical Swarms {{% /fragment %}}  
+- {{% fragment %}} #### Aggregate Computing -- In a nutshell {{% /fragment %}}  
+- {{% fragment %}} #### Main Concept of Multi-Agent (Reinforcement) Learning {{% /fragment %}}
+- {{% fragment %}} #### Preliminary Work & Research Directions {{% /fragment %}}
+
+---
+
+{{< slide id="cpws" transition="zoom" background-image="cpsw.png" background-transition="zoom">}}
 {{% vertical start%}}
 
 # Cyber Phisysical Swarms # {.white-text }
 
 ---
 
-{{< slide background-color="white">}}
-# Examples
-- {{% fragment %}} One {{% /fragment %}}
-- {{% fragment %}}Two{{% /fragment %}}
-- {{% fragment %}}Three{{% /fragment %}}
+{{< slide background-color="#fdf6e3">}}
 
+# Context
+{{% stack start %}}
+{{% timeline start "fade-out" "0" %}} 
+### Many (Simple) Networked Agents
+{{< image height="35" src="/cas.gif">}} 
+{{% timeline end %}}
+{{% timeline start "current-visible" "0" %}} 
+### Cyber Physical Systems
+{{< image height="35" src="/cas.gif">}} 
+{{% timeline end %}}
+{{% timeline start "current-visible" "1" %}} 
+### Collective Intellingece / Behaviour
+{{< image height="35" src="/cas.gif">}} 
+{{% timeline end %}}
+{{% stack end %}}
+---
+
+
+{{< slide background-color="#fdf6e3">}}
+
+# Why we care about it?
+
+- {{% fragment %}} Pervasive/Obiquitous Computing {{% /fragment %}}
+- {{% fragment %}} System of (today) {{% /fragment %}}
+{{% fragment %}}
+  - Swarm Robotics
+  - Smart Cities
+  - Large-Scale IoT systems 
+{{% /fragment %}}
+- {{% fragment %}} Traditional "Approach" are inadequates {{% /fragment %}}
+
+---
+
+{{< slide background-color="#fdf6e3">}}
+
+# Examples
+
+
+---
+{{< slide background-color="#fdf6e3">}}
+
+# Challenges
+
+- {{% fragment %}} Distributed Control {{% /fragment %}}
+- {{% fragment %}} Failures {{% /fragment %}}
+- {{% fragment %}} Global-to-local mapping {{% /fragment %}}
+- {{% fragment %}} Uncertanties {{% /fragment %}}
 {{% vertical end %}}
 
 ---
@@ -76,7 +127,23 @@ Background on Software Engineering
 
 ---
 
-# Computational Model
+# Super-Condensed Overview
+
+---
+
+# Main Constructs
+
+---
+
+# Execution Model
+
+---
+
+# What can we do with Aggregate Computing? # {.r-fit-text}
+
+---
+
+# Relevant examples 
 
 ---
 
@@ -87,7 +154,7 @@ Background on Software Engineering
 
 # Research Directions
 
-{{< fragment >}} Hybrid Programing Model: Learning {{% fa-solid plus %}} Programming {{< /fragment >}}  
+{{< fragment >}} Hybrid Programing Model: Learning {{% fa solid plus %}} Programming {{< /fragment >}}  
 {{< fragment >}} Flexible Deployment of Collective Application {{< /fragment >}}  
 
 ---
@@ -95,7 +162,7 @@ Background on Software Engineering
 # Broad Impact
 
 
-- {{< fragment >}} Hybrid Programing Model: Learning <i class="fa-solid  fa-plus "></i> Programming {{< /fragment >}}  
+- {{< fragment >}} Hybrid Programing Model: Learning {{% fa solid plus %}} Programming {{< /fragment >}}  
 - {{% fragment %}} Flexible Deployment of Collective Application {{% /fragment %}}  
 
 {{% vertical end %}}
