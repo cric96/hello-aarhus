@@ -13,6 +13,7 @@ aliases = [
 
 # Engineering Cyber Physical Swarms # {class="r-fit-text" }
 
+
 **Talk @ Aarhus Universitat**
 
 🎤 *Gianluca Aguzzi*
@@ -66,6 +67,7 @@ Background on Software Engineering
 
 # Cyber Phisysical Swarms # {.white-text }
 
+### {{% fragment %}} Swarm Behaviours {{% /fragment %}} {{% fragment %}} {{< fa plus >}} {{% /fragment %}} {{% fragment %}} Cyber-Physical Interaction {{% /fragment %}} ## {.white-text }
 ---
 
 {{< slide background-color="#fdf6e3">}}
@@ -85,6 +87,7 @@ Background on Software Engineering
 {{< image height="35" src="/cas.gif">}} 
 {{% timeline end %}}
 {{% stack end %}}
+
 ---
 
 

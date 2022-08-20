@@ -31,13 +31,14 @@ isHTML = true
 history = true
 theme = "serif"
 highlight_theme = "solarized-dark"
-slide_number = false
+slide_number = true
 transition = "slide"
 transition_speed = "fast"
 custom_theme = "custom-theme.scss"
 custom_theme_compile = true
 width = 1440
 height = 900
+
 [params.reveal_hugo.custom_theme_options]
 targetPath = "css/custom-theme.css"
 enableSourceMap = true
