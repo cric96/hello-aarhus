@@ -73,20 +73,29 @@ Background on Software Engineering
 {{< slide background-color="#fdf6e3">}}
 
 # Context
-{{% stack start %}}
-{{% timeline start "fade-out" "0" %}} 
-### Many (Simple) Networked Agents
-{{< image height="35" src="/cas.gif">}} 
+
+{{% row %}}
+{{% timeline start "fade-in col" %}} 
+#### Many Networked Agents
+ 
+{{< image height="15" src="/cas.gif" >}} 
+
 {{% timeline end %}}
-{{% timeline start "current-visible" "0" %}} 
-### Cyber Physical Systems
-{{< image height="35" src="/cas.gif">}} 
+
+{{% timeline start "fade-in col" %}} 
+#### Cyber Physical Systems
+ {{< image height="15" src="/cas.gif" >}} 
+
 {{% timeline end %}}
-{{% timeline start "current-visible" "1" %}} 
-### Collective Intellingece / Behaviour
-{{< image height="35" src="/cas.gif">}} 
+
+{{< timeline start  "fade-in col" >}}
+
+#### Collective Behaviour  
+{{< image height="15" src="/cas.gif" >}} 
+
 {{% timeline end %}}
-{{% stack end %}}
+
+{{% /row %}}
 
 ---
 
@@ -113,20 +122,21 @@ Background on Software Engineering
 
 # Examples
 
-{{% stack start %}}
-{{% timeline start "fade-out" "0" %}} 
+
+{{% row %}}
+{{% timeline start "col"  %}} 
 ### Swarm Robotics
-{{< image height="35" src="/cas.gif">}} 
+{{< image height="15" src="/cas.gif">}} 
 {{% timeline end %}}
-{{% timeline start "current-visible" "0" %}} 
+{{% timeline start "col"  %}} 
 ### Crowd Engineering
-{{< image height="35" src="/cas.gif">}} 
+{{< image height="15" src="/cas.gif">}} 
 {{% timeline end %}}
-{{% timeline start "current-visible" "1" %}} 
+{{% timeline start "col"  %}} 
 ### Smart Cities
-{{< image height="35" src="/cas.gif">}} 
+{{< image height="15" src="/cas.gif">}} 
 {{% timeline end %}}
-{{% stack end %}}
+{{% /row %}}
 
 ---
 {{< slide background-color="#fdf6e3">}}
