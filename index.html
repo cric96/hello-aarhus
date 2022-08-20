@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cric96.github.io/hello-aarhus/reveal-js/dist/reset.css">
 <link rel="stylesheet" href="https://cric96.github.io/hello-aarhus/reveal-js/dist/reveal.css">
-  <link rel="stylesheet" href="https://cric96.github.io/hello-aarhus/css/custom-theme.min.c30564c3c05da039fc4018b790c5263d3ff0e4bb0c3265ff86dfe746f670797c.css" id="theme"><link rel="stylesheet" href="https://cric96.github.io/hello-aarhus/highlight-js/solarized-dark.min.css">
+  <link rel="stylesheet" href="https://cric96.github.io/hello-aarhus/css/custom-theme.min.96d7bc4c853d2907e2ea29547c68e813c7fcf674c757d07e56b9a1bcf4186656.css" id="theme"><link rel="stylesheet" href="https://cric96.github.io/hello-aarhus/highlight-js/solarized-dark.min.css">
     
 <link rel="stylesheet" href="https://gitcdn.link/repo/DanySK/css-blur-animation/master/blur.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
@@ -37,7 +37,7 @@
 <i class="fab  fa-fab  fa-github  fa-2 ">
   
 </i> <a href="https://github.com/cric96">@cric96</a></p>
-<p>2022-08-18</p>
+<p>2022-08-20</p>
 
 
 
@@ -95,32 +95,24 @@
 </div>
 </section><section>
 <h1 id="table-of-content">Table of Content</h1>
-<ul>
-<li>
 
-<span class='fragment ' ><h4 id="introduction-on-cyber-physical-swarms">Introduction On Cyber-Physical Swarms</h4>
-</span>
 
+ <ul> 
+<li class='fragment '  style="color: #888;">
+<h4 id="introduction-on-cyber-physical-swarms">Introduction On Cyber-Physical Swarms</h4>
+</li>  
+<li class='fragment '  style="color: #888;">
+<h4 id="aggregate-computing----in-a-nutshell">Aggregate Computing &ndash; In a nutshell</h4>
+</li>  
+<li class='fragment '  style="color: #888;">
+<h4 id="main-concept-of-multi-agent-reinforcement-learning">Main Concept of Multi-Agent (Reinforcement) Learning</h4>
 </li>
-<li>
-
-<span class='fragment ' ><h4 id="aggregate-computing----in-a-nutshell">Aggregate Computing &ndash; In a nutshell</h4>
-</span>
-
+<li class='fragment '  style="color: #888;">
+<h4 id="preliminary-work--research-directions">Preliminary Work &amp; Research Directions</h4>
 </li>
-<li>
 
-<span class='fragment ' ><h4 id="main-concept-of-multi-agent-reinforcement-learning">Main Concept of Multi-Agent (Reinforcement) Learning</h4>
-</span>
+ </ul> 
 
-</li>
-<li>
-
-<span class='fragment ' ><h4 id="preliminary-work--research-directions">Preliminary Work &amp; Research Directions</h4>
-</span>
-
-</li>
-</ul>
 </section>
 
 <section data-noprocess data-shortcode-slide
@@ -187,67 +179,160 @@
       data-background-color="#fdf6e3">
   
 <h1 id="why-we-care-about-it">Why we care about it?</h1>
-<ul>
-<li>
 
-<span class='fragment ' >Pervasive/Obiquitous Computing</span>
 
+ <ul> 
+<li class='fragment '  style="color: #888;">
+Pervasive/Obiquitous Computing
 </li>
-<li>
-
-<span class='fragment ' >System of (today)</span>
-
-
-
-
-<span class='fragment ' ><ul>
-<li>Swarm Robotics</li>
-<li>Smart Cities</li>
-<li>Large-Scale IoT systems</li>
-</ul>
-</span>
-
+<li class='fragment '  style="color: #888;">
+Systems of today!
 </li>
-<li>
-
-<span class='fragment ' >Traditional &ldquo;Approach&rdquo; are inadequates</span>
-
+ <ul> 
+  <li class='fragment '  style="color: #888;">
+Swarm Robotics
 </li>
-</ul>
+  <li class='fragment '  style="color: #888;">
+Smart Cities
+</li>
+  <li class='fragment '  style="color: #888;">
+Large-Scale IoT systems
+</li>
+ </ul> 
+<li class='fragment '  style="color: #888;">
+Traditional &ldquo;Approaches&rdquo; are inadequates
+</li>
+
+ </ul> 
+
 </section>
 
 <section data-noprocess data-shortcode-slide
       data-background-color="#fdf6e3">
   
 <h1 id="examples">Examples</h1>
+<div class="r-stack">
+<span class='fragment fade-out' data-fragment-index='0' style="color: #888;">
+<h3 id="swarm-robotics">Swarm Robotics</h3>
+<figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/cas.gif" style='
+    
+    height: 35vh;
+    max-width: 95vw;
+    max-height: 80vh;
+    object-fit: contain;
+' >
+    <figcaption>  </figcaption>
+  </figure>
+
+</span>
+<span class='fragment current-visible' data-fragment-index='0' style="color: #888;">
+<h3 id="crowd-engineering">Crowd Engineering</h3>
+<figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/cas.gif" style='
+    
+    height: 35vh;
+    max-width: 95vw;
+    max-height: 80vh;
+    object-fit: contain;
+' >
+    <figcaption>  </figcaption>
+  </figure>
+
+</span>
+<span class='fragment current-visible' data-fragment-index='1' style="color: #888;">
+<h3 id="smart-cities">Smart Cities</h3>
+<figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/cas.gif" style='
+    
+    height: 35vh;
+    max-width: 95vw;
+    max-height: 80vh;
+    object-fit: contain;
+' >
+    <figcaption>  </figcaption>
+  </figure>
+
+</span>
+</div>
 </section>
 
 <section data-noprocess data-shortcode-slide
       data-background-color="#fdf6e3">
   
-<h1 id="challenges">Challenges</h1>
-<ul>
-<li>
+<h1 id="how">How??</h1>
 
-<span class='fragment ' >Distributed Control</span>
 
+ <ul> 
+<li class='fragment '  style="color: #888;">
+<h3 id="goals">Goals</h3>
 </li>
-<li>
-
-<span class='fragment ' >Failures</span>
-
+ <ul> 
+  <li class='fragment '  style="color: #888;">
+Robust Collective Behavior
 </li>
-<li>
-
-<span class='fragment ' >Global-to-local mapping</span>
-
+  <li class='fragment '  style="color: #888;">
+Self-* Behaviours
 </li>
-<li>
-
-<span class='fragment ' >Uncertanties</span>
-
+  <li class='fragment '  style="color: #888;">
+Decoupling from <strong>Functional</strong> and <strong>Non-Functional</strong> aspects
 </li>
-</ul>
+ </ul> 
+<li class='fragment '  style="color: #888;">
+<h3 id="challenges">Challenges</h3>
+</li>
+ <ul> 
+  <li class='fragment '  style="color: #888;">
+Distributed Control
+</li>
+  <li class='fragment '  style="color: #888;">
+Failures
+</li>
+  <li class='fragment '  style="color: #888;">
+Global-to-local mapping
+</li>
+  <li class='fragment '  style="color: #888;">
+Uncertanties
+</li>
+ </ul> 
+
+ </ul> 
+
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-color="#fdf6e3">
+  
+<h1 id="inspiration-hahahugoshortcode-s42-hbhb-hahahugoshortcode-s43-hbhb">Inspiration 
+
+
+<i class="fas  fa-fa  fa-arrow-right  fa-2 ">
+  
+</i> 
+
+<span class='fragment ' ><span class='highlight'>Nature</span></span>
+
+</h1>
+<div class="container">
+<span class='fragment fade-in col'  style="color: #888;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/IpKL-URul2I" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+<h3 id="span-classhighlightantsspan"><span class='highlight'>Ants</span></h3>
+</span>
+<span class='fragment fade-in col'  style="color: #888;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/UNroEwFxh6I" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+<h3 id="span-classhighlightbeesspan"><span class='highlight'>Bees</span></h3>
+</span>
+<span class='fragment fade-in col'  style="color: #888;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/B6M_XgiONoo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+<h3 id="span-classhighlightfish-schoolspan"><span class='highlight'>Fish School</span></h3>
+</span>
+</div>
 </section>
 </section>
 
