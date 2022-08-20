@@ -52,10 +52,12 @@ Background on Software Engineering
 ---
 
 # Table of Content
-- {{% fragment %}} #### Introduction On Cyber-Physical Swarms {{% /fragment %}}  
-- {{% fragment %}} #### Aggregate Computing -- In a nutshell {{% /fragment %}}  
-- {{% fragment %}} #### Main Concept of Multi-Agent (Reinforcement) Learning {{% /fragment %}}
-- {{% fragment %}} #### Preliminary Work & Research Directions {{% /fragment %}}
+{{% frag-list kind=ul %}}
+{{% frag-li %}} #### Introduction On Cyber-Physical Swarms {{% /frag-li %}}  
+{{% frag-li %}} #### Aggregate Computing -- In a nutshell {{% /frag-li %}}  
+{{% frag-li %}} #### Main Concept of Multi-Agent (Reinforcement) Learning {{% /frag-li %}}
+{{% frag-li %}} #### Preliminary Work & Research Directions {{% /frag-li %}}
+{{% /frag-list %}}
 
 ---
 
@@ -90,14 +92,17 @@ Background on Software Engineering
 
 # Why we care about it?
 
-- {{% fragment %}} Pervasive/Obiquitous Computing {{% /fragment %}}
-- {{% fragment %}} System of (today) {{% /fragment %}}
-{{% fragment %}}
-  - Swarm Robotics
-  - Smart Cities
-  - Large-Scale IoT systems 
-{{% /fragment %}}
-- {{% fragment %}} Traditional "Approach" are inadequates {{% /fragment %}}
+{{% frag-list kind=ul %}}
+
+{{% frag-li %}} Pervasive/Obiquitous Computing {{% /frag-li %}}
+{{% frag-li %}} Systems of today! {{% /frag-li %}}
+{{% frag-list kind=ul %}}
+  {{% frag-li %}} Swarm Robotics {{% /frag-li %}}
+  {{% frag-li %}} Smart Cities {{% /frag-li %}}
+  {{% frag-li %}} Large-Scale IoT systems {{% /frag-li %}}
+{{% /frag-list %}}
+{{% frag-li %}} Traditional "Approaches" are inadequates {{% /frag-li %}}
+{{% /frag-list %}}
 
 ---
 
@@ -105,16 +110,72 @@ Background on Software Engineering
 
 # Examples
 
+{{% stack start %}}
+{{% timeline start "fade-out" "0" %}} 
+### Swarm Robotics
+{{< image height="35" src="/cas.gif">}} 
+{{% timeline end %}}
+{{% timeline start "current-visible" "0" %}} 
+### Crowd Engineering
+{{< image height="35" src="/cas.gif">}} 
+{{% timeline end %}}
+{{% timeline start "current-visible" "1" %}} 
+### Smart Cities
+{{< image height="35" src="/cas.gif">}} 
+{{% timeline end %}}
+{{% stack end %}}
 
 ---
 {{< slide background-color="#fdf6e3">}}
 
-# Challenges
+# How??
+{{% frag-list kind=ul %}}
+{{% frag-li %}} ### Goals 
+{{% /frag-li %}}
+  {{% frag-list kind=ul %}}
+  {{% frag-li %}} Robust Collective Behavior {{% /frag-li %}}
+  {{% frag-li %}} Self-* Behaviours {{% /frag-li %}}
+  {{% frag-li %}} Decoupling from **Functional** and **Non-Functional** aspects {{% /frag-li %}}
+  {{% /frag-list %}}
+{{% frag-li %}} ### Challenges {{% /frag-li %}}
+  {{% frag-list kind=ul %}}
 
-- {{% fragment %}} Distributed Control {{% /fragment %}}
-- {{% fragment %}} Failures {{% /fragment %}}
-- {{% fragment %}} Global-to-local mapping {{% /fragment %}}
-- {{% fragment %}} Uncertanties {{% /fragment %}}
+  {{% frag-li %}} Distributed Control {{% /frag-li %}}
+  {{% frag-li %}} Failures {{% /frag-li %}}
+  {{% frag-li %}} Global-to-local mapping {{% /frag-li %}}
+  {{% frag-li %}} Uncertanties {{% /frag-li %}}
+  {{% /frag-list %}}
+{{% /frag-list %}}
+
+---
+
+{{< slide background-color="#fdf6e3">}}
+
+# Inspiration {{< fa fa arrow-right 2 >}} {{%fragment%}} {{< highlight c="Nature" >}} {{%/fragment%}}
+
+{{% row %}}
+
+{{% timeline start "fade-in col" %}} 
+
+{{< youtube IpKL-URul2I >}}
+###  {{< highlight c="Ants" >}}
+
+{{% timeline end %}}
+
+{{% timeline start "fade-in col" %}} 
+{{< youtube UNroEwFxh6I >}}
+### {{< highlight c="Bees" >}}
+
+{{% timeline end %}}
+
+{{% timeline start "fade-in col" %}} 
+
+{{< youtube B6M_XgiONoo >}}
+### {{< highlight c="Fish School" >}}
+{{% timeline end %}}
+
+{{% /row %}}
+
 {{% vertical end %}}
 
 ---
