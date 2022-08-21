@@ -108,5 +108,9 @@ $selectionBackgroundColor: $magenta;
 }
 
 .highlight {
-	color: #2aa198 !important;
+	color: $cyan !important;
+}
+
+.accent {
+	color: $magenta !important;
 }

@@ -40,15 +40,15 @@ Background on Software Engineering
 {{% timeline start %}} 
 **Main Research Interests** 
 {{% timeline end %}}
-{{< row >}}
+{{% row %}}
 {{% timeline start "fade-in col" %}} 
-{{< image height="35" src="/cas.gif" caption="Large Scale Distributed Systems" >}} 
+{{< image height=50 src="/cas.gif" caption="Large Scale Distributed Systems" >}} 
 {{% timeline end %}}
 {{% timeline start "fade-in col" %}} 
-{{< image height="35" src="/collective-artificial-intellingence.gif" caption="Collective Artificial Intelligence" >}} 
+{{% image height=50 src="/collective-artificial-intellingence.gif" caption="Collective Artificial Intelligence" %}} 
 {{% timeline end %}}
 
-{{< /row >}}
+{{% /row %}}
 
 ---
 
@@ -78,20 +78,20 @@ Background on Software Engineering
 {{% timeline start "fade-in col" %}} 
 #### Many Networked Agents
  
-{{< image height="15" src="/cas.gif" >}} 
+{{< image height="30" src="/cas.gif" >}} 
 
 {{% timeline end %}}
 
 {{% timeline start "fade-in col" %}} 
 #### Cyber Physical Systems
- {{< image height="15" src="/cas.gif" >}} 
+ {{< image height="30" src="/cas.gif" >}} 
 
 {{% timeline end %}}
 
 {{< timeline start  "fade-in col" >}}
 
 #### Collective Behaviour  
-{{< image height="15" src="/cas.gif" >}} 
+{{< image height="30" src="/cas.gif" >}} 
 
 {{% timeline end %}}
 
@@ -126,15 +126,15 @@ Background on Software Engineering
 {{% row %}}
 {{% timeline start "col"  %}} 
 ### Swarm Robotics
-{{< image height="15" src="/cas.gif">}} 
+{{< image height="30" src="/cas.gif">}} 
 {{% timeline end %}}
 {{% timeline start "col"  %}} 
 ### Crowd Engineering
-{{< image height="15" src="/cas.gif">}} 
+{{< image height="30" src="/cas.gif">}} 
 {{% timeline end %}}
 {{% timeline start "col"  %}} 
 ### Smart Cities
-{{< image height="15" src="/cas.gif">}} 
+{{< image height="30" src="/cas.gif">}} 
 {{% timeline end %}}
 {{% /row %}}
 
@@ -189,34 +189,70 @@ Background on Software Engineering
 
 {{% /row %}}
 
+---
+
+{{< slide background-color="#fdf6e3">}}
+
+# Engineering "Artifical" Swarms
+{{% frag-list kind=ul %}}
+{{% frag-li %}} ### Model {.highlight} {{% /frag-li %}} 
+{{% frag-list kind=ul %}}
+{{% frag-li %}} **How can we describe the dynamics of a systems?** {{% /frag-li %}} 
+{{% frag-list kind=ul %}}
+{{% frag-li %}} Homogenenous Behaviour {{% /frag-li %}} 
+{{% frag-li %}} "Neighborhood" or "Environment" based interactions {{% /frag-li %}} 
+{{% frag-li %}} Proactive execution model {{% /frag-li %}} 
+{{% /frag-list %}}
+{{% /frag-list %}}
+{{% frag-li %}} ### Language Specification {.highlight} {{% /frag-li %}}
+{{% frag-list kind=ul %}}
+{{% frag-li %}} **How can we specify a collective behaviour?** {{% /frag-li %}} 
+{{% frag-list kind=ul %}}
+{{% frag-li %}} Predicatable Emergent Behaviours {{% /frag-li %}} 
+{{% frag-li %}} Good abstractions {{% /frag-li %}} 
+{{% /frag-list %}}
+
+{{% /frag-list%}}
+{{% frag-li %}} ### Simulation {.highlight} {{% /frag-li %}}
+{{% frag-list kind=ul %}}
+{{% frag-li %}} **How can we verify our collective programs?"** {{% /frag-li %}} 
+{{% /frag-list %}}
+
+{{% /frag-list %}}
+
 {{% vertical end %}}
 
 ---
 
-{{< slide transition="zoom" >}}
+{{< slide transition="zoom" background-image="aggregate.gif" background-transition="zoom" >}}
 {{% vertical start%}}
 
-# Aggregate Computing
-**Programming the aggregate!**
+# Aggregate Computing {.white-text}
+#### Programming the aggregate! {.accent }
 
 ---
 
+{{< slide background-color="#fdf6e3">}}
 # Super-Condensed Overview
 
 ---
 
+{{< slide background-color="#fdf6e3">}}
 # Main Constructs
 
 ---
 
+{{< slide background-color="#fdf6e3">}}
 # Execution Model
 
 ---
 
+{{< slide background-color="#fdf6e3">}}
 # What can we do with Aggregate Computing? # {.r-fit-text}
 
 ---
 
+{{< slide background-color="#fdf6e3">}}
 # Relevant examples 
 
 ---
