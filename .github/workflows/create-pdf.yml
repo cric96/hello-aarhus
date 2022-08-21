@@ -24,7 +24,7 @@ jobs:
       #- name: Produce PDF
       #  run: chromium --headless --run-all-compositor-stages-before-draw --disable-gpu --virtual-time-budget=10000 -window-size=1440,900 --print-to-pdf=slides.pdf ${{steps.gh-pages-url.outputs.URL}}\?print-pdf\~
       - name: Produce slides
-        run: npx decktape automatic ${{steps.gh-pages-url.outputs.URL}}/ slides.pdf -s "1440x900" 
+        run: npx decktape automatic ${{steps.gh-pages-url.outputs.URL}}/ slides.pdf -s 1024x768 
       - name: Tag From date
         run: echo $(date +'%Y_%m_%d-%H_%M') | xargs -I{}  echo '::set-output name=TAG::{}'  
         id: tag-from-date
