@@ -30,26 +30,22 @@ Don't forget to thank the audience.
 ---
 
 # About Me
-{{% timeline start %}} 
-PhD Student @ Università di Bologna -- Alma Mater Studiorum  
-{{% timeline end %}}    
-{{% timeline start %}} 
-Background on Software Engineering 
-{{% timeline end %}}  
-{{% timeline start %}} 
-**Main Research Interests** 
-{{% timeline end %}}
+{{% fragment %}} PhD Student @ Università di Bologna -- Alma Mater Studiorum  {{% /fragment %}}    
+{{% fragment %}} Background on {{% highlight c="Software Engineering" %}} {{% /fragment %}}  
+{{% fragment %}} {{% accent c="**Main Research Interests**" %}} {{% /fragment %}}
+
 {{% row %}}
-{{% timeline start "fade-in col" %}} 
+{{% timeline start "col" %}}
 {{< image height=50 src="/cas.gif" caption="Large Scale Distributed Systems" >}} 
 {{% timeline end %}}
-{{% timeline start "fade-in col" %}} 
-{{% image height=50 src="/collective-artificial-intellingence.gif" caption="Collective Artificial Intelligence" %}} 
-{{% timeline end %}}
-
+{{% fragment class="col" %}} 
+{{% image height=50 src="/collective-artificial-intellingence.gif" caption="Collective Artificial Intelligence" %}}
+{{% /fragment %}}
 {{% /row %}}
 
 ---
+
+<section data-preload data-background-iframe="net.html" data-transition="zoom">
 
 # Table of Content
 {{% frag-list kind=ul %}}
@@ -59,13 +55,14 @@ Background on Software Engineering
 {{% frag-li %}} #### Preliminary Work & Research Directions {{% /frag-li %}}
 {{% /frag-list %}}
 
----
+</section>
 
 {{% vertical start%}}
 
-<section data-preload data-background-iframe="boids.html" data-transition="zoom">
-  <h1> Cyber Phisysical Swarm </h1>
-  <h3 class="accent"> <span class="fragment"> Swarm Behaviours </span> <span class="fragment"> {{< fa plus >}} </span> <span class="fragment"> Cyber-Physical Interaction </span> </h3>
+<section data-preload data-background-iframe="boids.html">
+
+# Cyber Phisysical Swarm
+<h3 class="accent"> <span class="fragment"> Swarm Behaviours </span> <span class="fragment"> {{< fa plus >}} </span> <span class="fragment"> Cyber-Physical Interaction </span> </h3>
 </section>
 
 {{< slide background-color="#fdf6e3">}}
@@ -230,7 +227,10 @@ Background on Software Engineering
 
 
 {{< slide background-color="#fdf6e3">}}
+
 # Super-Condensed Overview
+**{{% highlight c="Aggregate Computing" %}}** {{< fa fa arrow-right 2 >}} A {{% accent c="top-down" %}} *{{% highlight c="global to local" %}}* {{% accent c=functional %}} progromming approach to express {{% accent c="self-organising" %}} collective behaviours
+
 
 {{% row %}}
 {{% timeline start "col"  %}} 
@@ -251,28 +251,54 @@ Background on Software Engineering
 {{% /row %}}
 
 
+**Reference:** J. Beal et al, {{% accent c="Aggregate Programming for the Internet of Things" %}}
+
+--- 
+
+# Computational fields
+
+Distributed space-time data structure {{% accent c="$ \phi: D \rightarrow V $" %}}
+{{% frag-list kind=ul %}}
+{{% frag-li %}} {{% accent c="E" %}}: a triple {{% accent c="$\langle\delta, t, p\rangle$" %}} – device {{% accent c="$\delta$" %}}, {{% highlight c="**firing**" %}} at time {{% accent c="$t$" %}} in position {{% accent c="$p$" %}} {{% /frag-li %}}  
+{{% frag-li %}} {{% accent c="Event domains D" %}}: a coherent set of events (devices cannot move too fast) {{% /frag-li %}}  
+{{% frag-li %}} {{%accent c=" field values V" %}}: any data values {{% /frag-li %}}
+{{% /frag-list %}}
+
+{{% row %}}
+{{% col %}}
+### Constant
+{{% /col %}}
+
+{{% col %}}
+### Input (Sensors)
+{{% /col %}}
+{{% col %}}
+### Functions
+{{% /col %}}
+{{% col %}}
+### Actuations
+{{% /col %}}
+{{% /row %}}
+
 ---
 
-{{< slide background-color="#fdf6e3">}}
 # Main Constructs
+## Field calculus {.accent}
 
 ---
 
-{{< slide background-color="#fdf6e3">}}
 # Execution Model
 
 ---
 
-{{< slide background-color="#fdf6e3">}}
 # What can we do with Aggregate Computing? # {.r-fit-text}
+## Relevant examples {.accent } 
 
 ---
 
-{{< slide background-color="#fdf6e3">}}
-# Relevant examples 
+# Why Aggregate Computing?
 
 ---
-
 {{% vertical end %}}
 {{< slide transition="zoom" >}}
 

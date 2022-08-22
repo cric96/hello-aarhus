@@ -6,25 +6,24 @@
   </head>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.net.min.js"></script>
 <body>
   <div id="background"> </div>
 </body>
   <script>
-    VANTA.WAVES({
+    VANTA.NET({
       el: "#background",
-      
       color: 0xb58900,
-  
+      backgroundColor:0xfdf6e3, 
       mouseControls: false,
       touchControls: false,
       gyroControls: false,
       minHeight: 200.00,
       minWidth: 200.00,
-      scale: 0.50,
-      point: 1.0,
-      spacing: 20,
-      scaleMobile: 1.00
+      scale: 1.00,
+      scaleMobile: 1.00,
+      points: 6.00,
+      spacing: 20.00
     })
   </script>
 
