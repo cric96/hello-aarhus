@@ -62,13 +62,12 @@ Background on Software Engineering
 
 ---
 
-{{< slide id="cpws" transition="zoom" background-image="cpsw.png" background-transition="zoom">}}
 {{% vertical start%}}
 
-# Cyber Phisysical Swarms # {.white-text }
-
-### {{% fragment %}} Swarm Behaviours {{% /fragment %}} {{% fragment %}} {{< fa plus >}} {{% /fragment %}} {{% fragment %}} Cyber-Physical Interaction {{% /fragment %}} ## {.white-text }
----
+<section data-preload data-background-iframe="boids.html" data-transition="zoom">
+  <h1> Cyber Phisysical Swarm </h1>
+  <h3 class="accent"> <span class="fragment"> Swarm Behaviours </span> <span class="fragment"> {{< fa plus >}} </span> <span class="fragment"> Cyber-Physical Interaction </span> </h3>
+</section>
 
 {{< slide background-color="#fdf6e3">}}
 
@@ -223,14 +222,13 @@ Background on Software Engineering
 {{% vertical end %}}
 
 ---
-
-{{< slide transition="zoom" background-image="aggregate.gif" background-transition="zoom" >}}
 {{% vertical start%}}
 
-# Aggregate Computing {.white-text}
-#### Programming the aggregate! {.accent }
+<section data-preload data-background-iframe="waves.html" data-transition="zoom">
+  <h1 class="white-text"> Aggregate Computing </h1>
+  <h4 class="accent"> Programming the aggregate! </h4>
+</section>
 
----
 
 {{< slide background-color="#fdf6e3">}}
 # Super-Condensed Overview
