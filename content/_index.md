@@ -224,7 +224,7 @@ Background on Software Engineering
 ---
 {{% vertical start%}}
 
-<section data-preload data-background-iframe="waves.html" data-transition="zoom">
+<section data-preload data-background-iframe="waves.html" data-transition="zoom" data-background-color="black">
   <h1 class="white-text"> Aggregate Computing </h1>
   <h4 class="accent"> Programming the aggregate! </h4>
 </section>
