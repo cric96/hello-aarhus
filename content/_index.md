@@ -10,7 +10,6 @@ aliases = [
 
 +++
 
-
 # Engineering Cyber Physical Swarms # {class="r-fit-text" }
 
 
@@ -106,13 +105,13 @@ Background on Software Engineering
 {{% frag-list kind=ul %}}
 
 {{% frag-li %}} Pervasive/Obiquitous Computing {{% /frag-li %}}
-{{% frag-li %}} Systems of today! {{% /frag-li %}}
+{{% frag-li %}} **{{% accent c="Systems of today!" %}}** {{% /frag-li %}}
 {{% frag-list kind=ul %}}
   {{% frag-li %}} Swarm Robotics {{% /frag-li %}}
   {{% frag-li %}} Smart Cities {{% /frag-li %}}
   {{% frag-li %}} Large-Scale IoT systems {{% /frag-li %}}
 {{% /frag-list %}}
-{{% frag-li %}} Traditional "Approaches" are inadequates {{% /frag-li %}}
+{{% frag-li %}} Traditional "Approaches" are *{{% highlight c=inadequate %}}* {{% /frag-li %}}
 {{% /frag-list %}}
 
 ---
@@ -142,14 +141,14 @@ Background on Software Engineering
 
 # How??
 {{% frag-list kind=ul %}}
-{{% frag-li %}} ### Goals 
+{{% frag-li %}} ### Goals {.highlight}
 {{% /frag-li %}}
   {{% frag-list kind=ul %}}
   {{% frag-li %}} Robust Collective Behavior {{% /frag-li %}}
   {{% frag-li %}} Self-* Behaviours {{% /frag-li %}}
-  {{% frag-li %}} Decoupling from **Functional** and **Non-Functional** aspects {{% /frag-li %}}
+  {{% frag-li %}} Decoupling from **{{%accent c=Functional %}}** and **{{% accent c=Non-Functional %}}** aspects {{% /frag-li %}}
   {{% /frag-list %}}
-{{% frag-li %}} ### Challenges {{% /frag-li %}}
+{{% frag-li %}} ### Challenges {.highlight} {{% /frag-li %}}
   {{% frag-list kind=ul %}}
 
   {{% frag-li %}} Distributed Control {{% /frag-li %}}
@@ -199,7 +198,7 @@ Background on Software Engineering
 {{% frag-li %}} **How can we describe the dynamics of a systems?** {{% /frag-li %}} 
 {{% frag-list kind=ul %}}
 {{% frag-li %}} Homogenenous Behaviour {{% /frag-li %}} 
-{{% frag-li %}} "Neighborhood" or "Environment" based interactions {{% /frag-li %}} 
+{{% frag-li %}} {{% accent c=Neighborhood %}} or {{% accent c=Environment %}} based interactions {{% /frag-li %}} 
 {{% frag-li %}} Proactive execution model {{% /frag-li %}} 
 {{% /frag-list %}}
 {{% /frag-list %}}
@@ -207,7 +206,7 @@ Background on Software Engineering
 {{% frag-list kind=ul %}}
 {{% frag-li %}} **How can we specify a collective behaviour?** {{% /frag-li %}} 
 {{% frag-list kind=ul %}}
-{{% frag-li %}} Predicatable Emergent Behaviours {{% /frag-li %}} 
+{{% frag-li %}} **{{% accent c="Predicatable Emergent" %}}** Behaviours {{% /frag-li %}} 
 {{% frag-li %}} Good abstractions {{% /frag-li %}} 
 {{% /frag-list %}}
 
@@ -232,6 +231,25 @@ Background on Software Engineering
 
 {{< slide background-color="#fdf6e3">}}
 # Super-Condensed Overview
+
+{{% row %}}
+{{% timeline start "col"  %}} 
+### Computational Field {.accent }
+{{< image height=50 src="/ac.png"  >}} 
+{{% timeline end %}}
+
+{{% timeline start "col"  %}} 
+### Field Calculus {.accent }
+{{< image height=50 src="/high-level-examples.png"  >}} 
+{{% timeline end %}}
+
+{{% timeline start "col"  %}} 
+### Composable API {.accent }
+{{< image height=50 src="/full-stack.png"  >}} 
+{{% timeline end %}}
+
+{{% /row %}}
+
 
 ---
 
