@@ -1,5 +1,4 @@
-{{ if eq "start" (.Get 0) }}
-<div class="r-stack">
-{{ else if eq "end" (.Get 0)}}
+{{ $_hugo_config := `{ "version": 1 }` }}
+<div class "r-stack">
+{{ .Inner }}
 </div>
-{{end}}

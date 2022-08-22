@@ -35,9 +35,9 @@ Don't forget to thank the audience.
 {{% fragment %}} {{% accent c="**Main Research Interests**" %}} {{% /fragment %}}
 
 {{% row %}}
-{{% timeline start "col" %}}
+{{% fragment class="col" %}}
 {{< image height=50 src="/cas.gif" caption="Large Scale Distributed Systems" >}} 
-{{% timeline end %}}
+{{% /fragment %}}
 {{% fragment class="col" %}} 
 {{% image height=50 src="/collective-artificial-intellingence.gif" caption="Collective Artificial Intelligence" %}}
 {{% /fragment %}}
@@ -70,25 +70,18 @@ Don't forget to thank the audience.
 # Context
 
 {{% row %}}
-{{% timeline start "fade-in col" %}} 
+{{% fragment class="col" %}} 
 #### Many Networked Agents
- 
 {{< image height="30" src="/cas.gif" >}} 
-
-{{% timeline end %}}
-
-{{% timeline start "fade-in col" %}} 
+{{% /fragment %}}
+{{% fragment class="col" %}} 
 #### Cyber Physical Systems
- {{< image height="30" src="/cas.gif" >}} 
-
-{{% timeline end %}}
-
-{{< timeline start  "fade-in col" >}}
-
+{{< image height="30" src="/cas.gif" >}} 
+{{% /fragment %}}
+{{% fragment class="col" %}} 
 #### Collective Behaviour  
 {{< image height="30" src="/cas.gif" >}} 
-
-{{% timeline end %}}
+{{% /fragment %}}
 
 {{% /row %}}
 
@@ -119,18 +112,18 @@ Don't forget to thank the audience.
 
 
 {{% row %}}
-{{% timeline start "col"  %}} 
+{{% fragment class="col" %}}
 ### Swarm Robotics
 {{< image height="30" src="/cas.gif">}} 
-{{% timeline end %}}
-{{% timeline start "col"  %}} 
+{{% /fragment %}}
+{{% fragment class="col" %}}
 ### Crowd Engineering
 {{< image height="30" src="/cas.gif">}} 
-{{% timeline end %}}
-{{% timeline start "col"  %}} 
+{{% /fragment %}}
+{{% fragment class="col" %}}
 ### Smart Cities
 {{< image height="30" src="/cas.gif">}} 
-{{% timeline end %}}
+{{% /fragment %}}
 {{% /row %}}
 
 ---
@@ -163,24 +156,20 @@ Don't forget to thank the audience.
 
 {{% row %}}
 
-{{% timeline start "fade-in col" %}} 
-
+{{% fragment class="col" %}} 
 {{< youtube IpKL-URul2I >}}
 ###  {{< highlight c="Ants" >}}
+{{% /fragment %}}
 
-{{% timeline end %}}
-
-{{% timeline start "fade-in col" %}} 
+{{% fragment class="col" %}}  
 {{< youtube UNroEwFxh6I >}}
 ### {{< highlight c="Bees" >}}
+{{% /fragment %}}
 
-{{% timeline end %}}
-
-{{% timeline start "fade-in col" %}} 
-
+{{% fragment class="col" %}}  
 {{< youtube B6M_XgiONoo >}}
 ### {{< highlight c="Fish School" >}}
-{{% timeline end %}}
+{{% /fragment %}}
 
 {{% /row %}}
 
@@ -233,20 +222,21 @@ Don't forget to thank the audience.
 
 
 {{% row %}}
-{{% timeline start "col"  %}} 
+
+{{% fragment class="col" %}}  
 ### Computational Field {.accent }
 {{< image height=50 src="/ac.png"  >}} 
-{{% timeline end %}}
+{{% /fragment %}}
 
-{{% timeline start "col"  %}} 
+{{% fragment class="col" %}}  
 ### Field Calculus {.accent }
 {{< image height=50 src="/high-level-examples.png"  >}} 
-{{% timeline end %}}
+{{% /fragment %}}
 
-{{% timeline start "col"  %}} 
+{{% fragment class="col" %}}  
 ### Composable API {.accent }
 {{< image height=50 src="/full-stack.png"  >}} 
-{{% timeline end %}}
+{{% /fragment %}}
 
 {{% /row %}}
 
@@ -265,29 +255,104 @@ Distributed space-time data structure {{% accent c="$ \phi: D \rightarrow V $" %
 {{% /frag-list %}}
 
 {{% row %}}
-{{% col %}}
+{{% fragment class="col" %}}  
 ### Constant
-{{% /col %}}
-
-{{% col %}}
+{{< image height=20 src="/constant.png"  >}}
+{{% /fragment %}}
+{{% fragment class="col" %}}  
 ### Input (Sensors)
-{{% /col %}}
-{{% col %}}
-### Functions
-{{% /col %}}
-{{% col %}}
+{{< image height=20 src="/sensor.png"  >}}
+{{% /fragment %}}
+{{% fragment class="col" %}}   
 ### Actuations
-{{% /col %}}
+{{< image height=20 src="/actuation.png"  >}} 
+{{% /fragment %}}
+
 {{% /row %}}
 
 ---
 
 # Main Constructs
 ## Field calculus {.accent}
+{{% fragment %}} **{{% highlight c="Conceptually" %}}**: $ \phi \rightarrow \phi$ {{% fragment %}}
+{{% row %}}
+{{% fragment class="col" %}}  
+**Field Evolution**
+```scala
+def rep[X](init: => X)(evolution: X => X): X
+```
+{{% /fragment %}}
+{{% fragment class="col" %}}  
+**Neighborhood Interaction**
 
+```scala
+def nbr[X](query: => X): X
+def foldhood[X]
+  (init: => X)
+  (accumulator: (X, X) => X)
+  (query: => X): X
+```
+{{% /fragment %}}
+{{% fragment class="col" %}}  
+**Domain Partition**
+```scala
+def branch[X]
+  (condition: Boolean)
+  (th: => X)
+  (el: => X): X
+```
+{{% /fragment %}}
+{{% /row %}}
+
+{{% fragment %}} {{< fa thumbs-up >}}  {{% accent c="**Space-time Universal**" %}} {{% /fragment %}}  
+
+{{% fragment %}} {{< fa thumbs-up >}}  {{% accent c="**Global interpretation**" %}} {{% /fragment %}}  
 ---
 
 # Execution Model
+Proactive and Periodioc execution of **{{% accent c="rounds" %}}** 
+{{% row %}}
+{{% col %}}
+{{% frag-list kind="ol" %}}
+{{% frag-li "fade-in" "0" %}} 
+#### Context Acquisition {.highlight}
+- Sensors Data
+- Neighborhood Information
+
+{{% /frag-li %}}
+
+{{% frag-li "fade-in" 1 %}}
+#### Program Evaluation {.highlight} 
+-  **Export** Generation 
+{{% /frag-li %}}
+{{% frag-li "fade-in" 2 %}} 
+#### Context Action {.highlight}
+- **Export** Sharing
+- Actuations 
+{{% /frag-li %}}
+{{% /frag-list %}}
+{{% /col %}}
+{{% col class="r-stack" %}}
+
+{{% fragment class="fade-in" index="0" %}}
+{{< image height=30 src="/execution-steps-0.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="1" %}}
+{{< image height=30 src="/execution-steps-1.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="2" %}}
+{{< image height=30 src="/execution-steps-2.png" >}} 
+{{% /fragment %}}
+
+
+{{% /col %}}
+{{% /row %}}
+
+---
+
+# What can we do with Aggregate Computing? # {.r-fit-text}
+## Collective pattern {.accent } 
+
 
 ---
 
@@ -295,6 +360,7 @@ Distributed space-time data structure {{% accent c="$ \phi: D \rightarrow V $" %
 ## Relevant examples {.accent } 
 
 ---
+
 
 # Why Aggregate Computing?
 
@@ -321,8 +387,4 @@ Distributed space-time data structure {{% accent c="$ \phi: D \rightarrow V $" %
 
 ---
 
-## Fallback to shortcodes for resizing
-
-
-{{< image src="https://upload.wikimedia.org/wikipedia/it/6/6c/Scavolino_innevata.jpg" max-h="20">}}
 

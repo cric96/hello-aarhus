@@ -4,8 +4,4 @@
 {{ else if in (slice "solid") (.Get 0) }}
   {{ $faStylePrefix = print "fa-" (.Get 0) }}
 {{ end }}
-
-<i class="{{ $faStylePrefix }} {{ range $iconName := .Params }} fa-{{ $iconName }} {{ end }}">
-  <!-- Load font awesome only once per page, load it inside the <i> element
-    so it does not disturb the text flow (like removing spaces) -->
-</i>
+<i class="{{ $faStylePrefix }} {{ range $iconName := .Params }} fa-{{ $iconName }} {{ end }}"> </i>
