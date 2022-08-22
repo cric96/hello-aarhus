@@ -201,7 +201,6 @@ Don't forget to thank the audience.
 {{% frag-list kind=ul %}}
 {{% frag-li %}} **How can we verify our collective programs?"** {{% /frag-li %}} 
 {{% /frag-list %}}
-
 {{% /frag-list %}}
 
 {{% vertical end %}}
@@ -274,7 +273,7 @@ Distributed space-time data structure {{% accent c="$ \phi: D \rightarrow V $" %
 
 # Main Constructs
 ## Field calculus {.accent}
-{{% fragment %}} **{{% highlight c="Conceptually" %}}**: $ \phi \rightarrow \phi$ {{% fragment %}}
+{{% fragment %}} **{{% highlight c="Conceptually" %}}**: $ \phi \rightarrow \phi$ {{% /fragment %}}
 {{% row %}}
 {{% fragment class="col" %}}  
 **Field Evolution**
@@ -307,6 +306,7 @@ def branch[X]
 {{% fragment %}} {{< fa thumbs-up >}}  {{% accent c="**Space-time Universal**" %}} {{% /fragment %}}  
 
 {{% fragment %}} {{< fa thumbs-up >}}  {{% accent c="**Global interpretation**" %}} {{% /fragment %}}  
+
 ---
 
 # Execution Model
@@ -343,7 +343,6 @@ Proactive and Periodioc execution of **{{% accent c="rounds" %}}**
 {{% fragment class="fade-in" index="2" %}}
 {{< image height=30 src="/execution-steps-2.png" >}} 
 {{% /fragment %}}
-
 
 {{% /col %}}
 {{% /row %}}
