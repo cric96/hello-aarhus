@@ -9,8 +9,8 @@ weight = 3
 
 {{% row %}}
 {{% col %}}
-{{% frag-list kind="ul" %}}
-{{% frag-li "fade-in" "0" %}} Current status: good abstractions & building blocks {{% /frag-li %}}
+{{% frag-list kind="ul" class="no-bullet" %}}
+{{% frag-li "fade-in" "0" %}} {{% good c="{{% fa thumbs-up %}}" %}} Current status: good abstractions & building blocks {{% /frag-li %}}
 {{% frag-li "fade-in" "1" %}} {{% bad c="{{% fa thumbs-down %}}" %}} Lack of High-Level API for Swarms Behaviours {{% /frag-li %}}
 {{% frag-li "fade-in" "2" %}} {{% bad c="{{% fa thumbs-down %}}" %}} No Distributed middleware  {{% /frag-li %}}
 {{% frag-li "fade-in" "3" %}} {{% good c="{{% fa thumbs-up %}}" %}} Machine Learning could improve the entire stack! {{% /frag-li %}}
@@ -41,7 +41,7 @@ weight = 3
 
 {{% row %}}
 {{% col %}}
-{{% frag-list kind="ul" %}}
+{{% frag-list kind="ul" class="no-bullet" %}}
 {{% frag-li "fade-in" "1" %}} {{% good c="{{% fa thumbs-up %}}" %}} Well-known execution strategy for Aggregate programs {{% /frag-li %}}
 {{% frag-li "fade-in" "2" %}} {{% bad c="{{% fa thumbs-down %}}" %}} Lack of Monitoring, Scheduling, Communication modules {{% /frag-li %}}
 {{% frag-li "fade-in" "3" %}} {{% bad c="{{% fa thumbs-down %}}" %}} Limited IT network supported {{% /frag-li %}}
@@ -66,10 +66,46 @@ weight = 3
 
 ---
 
+
+# Research Directions
+## Machine Learning Roadmap {.accent}
+
+{{% col class="r-stack" %}}
+{{% fragment class="fade-in" index="0" %}}
+{{< image height=30 src="/roadmap-step-1.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="1" %}}
+{{< image height=30 src="/roadmap-step-2.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="2" %}}
+{{< image height=30 src="/roadmap-step-3.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="3" %}}
+{{< image height=30 src="/roadmap-step-4.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="4" %}}
+{{< image height=30 src="/roadmap-step-5.png" >}} 
+{{% /fragment %}}
+{{% /col %}}
+{{% fragment class="fade-in" %}}
+### Why? {.highlight}
+
+{{% frag-list kind="ul" class="no-bullet" %}}
+{{% frag-li %}} {{% good c="{{% fa thumbs-up %}}" %}} Improve **{{%accent c="adaptability" %}}**  {{% /frag-li %}}
+{{% frag-li %}} {{% good c="{{% fa thumbs-up %}}" %}} Improve **{{%accent c="efficiency & efficacy" %}}** {{% /frag-li %}}
+{{% frag-li %}} {{% good c="{{% fa thumbs-up %}}" %}} Mixed-approach, let machine learn the **{{%accent c="unknown" %}}** {{% /frag-li %}}
+{{% /frag-list %}}
+
+---
+
 # Broad Impact
 
-- {{< fragment >}} Hybrid Programing Model: Learning {{% fa solid plus %}} Programming {{< /fragment >}}  
-- {{% fragment %}} Flexible Deployment of Collective Application {{% /fragment %}}  
+{{% frag-list kind="ul" %}}
+{{% frag-li %}} Engineering **{{% accent c="Collective Intellingence" %}}** {{% /frag-li %}}
+{{% frag-li %}} **{{% accent c="Green" %}}** Computing{{% /frag-li %}}
+{{% frag-li %}} **{{% accent c="Multi-Agent" %}}** Reinforcement Learning {{% /frag-li %}}
+{{% frag-li %}} **{{% accent c="Hybrid" %}}** Programming Paradigm {{% /frag-li %}}
+{{% /frag-list %}}
 
 {{% vertical end %}}
 

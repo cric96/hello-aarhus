@@ -198,7 +198,7 @@ Distributed leader election
 # Why Aggregate Computing?
 {{% frag-list kind="ul" %}}
 
-{{% frag-li %}} {{% accent c="**Is pratical!**" %}} {{% /frag-li %}}
+{{% frag-li %}} {{% accent c="**Is practical!**" %}} {{% /frag-li %}}
 {{% frag-list kind="ul" %}} 
 {{% frag-li %}} Programming Languages: [ScaFi](https://scafi.github.io/), [Protelis](http://protelis.github.io/), [FCPP](https://fcpp.github.io/) {{% /frag-li %}}
 {{% frag-li %}} Simulation Framework: [Alchemist](http://alchemistsimulator.github.io/) {{% /frag-li %}}
@@ -213,7 +213,5 @@ Distributed leader election
 
 {{% /frag-list %}} 
 {{% /frag-list %}}
-
-
 
 {{% vertical end %}}

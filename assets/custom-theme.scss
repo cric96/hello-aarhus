@@ -71,9 +71,7 @@ $selectionBackgroundColor: $magenta;
 	box-shadow: none;
 }
 
-.reveal h3 {
-	margin: .5em 0 0;
-}
+
 
 .reveal ul {
 	margin: .2em .2em .2em;
@@ -86,14 +84,13 @@ $selectionBackgroundColor: $magenta;
 // Used for multiple in row images
 .container {
 	display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .col {
 	flex: 1;
-}
-
-.col > * {
-  margin:0 10px 10px 0;
+	margin: 0.1em;
 }
 
 //
@@ -119,4 +116,8 @@ $selectionBackgroundColor: $magenta;
 
 .ok {
 	color: $green !important;
+}
+
+.no-bullet {
+	list-style-type: none !important;
 }
