@@ -176,16 +176,19 @@ Distributed leader election
 {{% row %}}
 {{% fragment class="col" %}}
 #### Crowd Engineering
+{{% highlight c="High-Level API" %}}
 {{% /fragment %}}
 
 {{% fragment class="col" %}}
 #### Distributed Reslint Sensing
-##### SCR pattern
+{{% highlight c="SCR pattern" %}}
 {{% /fragment %}}
 
 {{% fragment class="col" %}}
-#### Concurrent Distributed Activities
-##### Aggregate Processess
+
+#### Concurrent Activities
+{{% highlight c="Aggregate Processess" %}}
+
 {{% /fragment %}}
 
 {{% /row %}}
@@ -194,11 +197,20 @@ Distributed leader election
 
 # Why Aggregate Computing?
 {{% frag-list kind="ul" %}}
-{{% frag-li %}} Is pratical! {{% /frag-li %}}
-{{% frag-list %}} 
+
+{{% frag-li %}} {{% accent c="**Is pratical!**" %}} {{% /frag-li %}}
+{{% frag-list kind="ul" %}} 
+{{% frag-li %}} Programming Languages: [ScaFi](https://scafi.github.io/), [Protelis](http://protelis.github.io/), [FCPP](https://fcpp.github.io/) {{% /frag-li %}}
+{{% frag-li %}} Simulation Framework: [Alchemist](http://alchemistsimulator.github.io/) {{% /frag-li %}}
+{{% frag-li %}} Simulation Framework: [Playground](https://scafi.github.io/web) {{% /frag-li %}}
+
 {{% /frag-list %}} 
-{{% frag-li %}} Relevant properties have been proven ! {{% /frag-li %}}
-{{% frag-list %}} 
+{{% frag-li %}} {{% accent c="**Relevant properties have been proven !**" %}} {{% /frag-li %}}
+{{% frag-list kind="ul" %}} 
+{{% frag-li %}} [Self-stabilization](https://ieeexplore.ieee.org/document/7306598) {{% /frag-li %}}
+{{% frag-li %}} [Time-space universalily](https://link-springer-com.ezproxy.unibo.it/chapter/10.1007/978-3-319-92408-3_1) {{% /frag-li %}}
+{{% frag-li %}} [Eventual Consistency](https://ieeexplore.ieee.org/abstract/document/7774387/) {{% /frag-li %}}
+
 {{% /frag-list %}} 
 {{% /frag-list %}}
 
