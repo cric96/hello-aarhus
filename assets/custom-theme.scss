@@ -112,3 +112,11 @@ $selectionBackgroundColor: $magenta;
 .reveal .progress {
 	color: $magenta;
 }
+
+.bad {
+	color: $red !important;
+}
+
+.ok {
+	color: $green !important;
+}
