@@ -3,10 +3,11 @@ weight = 4
 +++
 
 {{% vertical start %}}
-{{% slide background-image="/background-marl.jpg" background-opacity=0.3 %}}
+{{% slide background-image=background-marl.jpg background-opacity=0.3 %}}
 
 # Multi-Agent Reinforcement Learning {.r-fit-text }
 ## Overview {.accent}
+
 
 ---
 
