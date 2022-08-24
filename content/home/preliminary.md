@@ -1,0 +1,120 @@
++++
+weight = 5
++++
+
+{{% vertical start %}}
+
+# Collective Program Sketching
+### Aggregate Computing {{< fa solid plus >}} (Hysteretic) Q-Learning {.accent} 
+
+**Reference:** G. Aguzzi et al, {{% accent c="Towards Reinforcement Learning-based Aggregate Computing" %}}
+
+---
+
+## High-Level idea {.accent}
+
+{{%row%}}
+{{%fragment%}}
+### Aggregate Program
+{{%/fragment%}}
+
+{{%fragment%}}
+### System-Dynamic Specific Part {{%accent c="(Hole)" %}}
+{{%/fragment%}}
+
+{{%fragment%}}
+### Fill the Hole through {{%accent c="Experience" %}}
+{{%/fragment%}}
+
+{{%/row%}}
+
+---
+
+# Execution Model
+## Revised {.accent}
+
+{{% col class="r-stack" %}}
+{{% fragment class="fade-in" index="0" %}}
+{{< image height=30 src="/execution-steps-0.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="1" %}}
+{{< image height=30 src="/execution-steps-1.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="2" %}}
+{{< image height=30 src="/execution-steps-2.png" >}} 
+{{% /fragment %}}
+{{% /col %}}
+
+---
+
+# Learning Settings
+
+{{% row %}}
+{{% fragment class="col" index="0" %}}
+{{%accent c="**Multi Agent Systems**" %}}
+{{% /fragment %}}
+
+{{% fragment class="col" index="1" %}}
+{{%accent c="**Homogenous Behaviour**" %}}
+{{% /fragment %}}
+
+{{% fragment class="col" index="2" %}}
+{{%accent c="**Centralised Traning Decentralised Execution**" %}}
+{{% /fragment %}}
+{{% /row %}}
+
+{{% col class="r-stack" %}}
+{{% fragment class="fade-in" index="3" %}}
+{{< image height=30 src="/execution-steps-0.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="4" %}}
+{{< image height=30 src="/execution-steps-1.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="5" %}}
+{{< image height=30 src="/execution-steps-2.png" >}} 
+{{% /fragment %}}
+{{% /col %}}
+
+---
+
+# Case Study
+## Improve Gradient Cast {.accent}
+
+{{% frag-list kind="ul" %}}
+{{% frag-li %}} Gradient Cast Main block for collective behavior {{% /frag-li %}}
+{{% frag-list kind="ul" %}}
+{{% frag-li %}} Broadcast information {{% /frag-li %}}
+{{% frag-li %}} Team formation {{% /frag-li %}}
+{{% frag-li %}} High-Level pattern {{% /frag-li %}}
+{{% /frag-list %}}
+{{% frag-li %}} The behaviour could depends of the environment dynamics {{% /frag-li %}}
+{{% frag-list kind="ul" %}}
+{{% frag-li %}} Several Issues: non-smooth output, slow-rising problem, problem with highly-dynamic nodes  {{% /frag-li %}}
+{{% frag-li %}} Typical approach: {{%highlight c="ad-hoc heuristic" %}} {{% /frag-li %}}
+{{% /frag-list %}}
+{{% /frag-list %}}
+
+---
+
+# Preliminary Result
+## Handle slow rising problem {.accent}
+{{%frag-list kind="ul"%}}
+{{%frag-li%}} {{%accent c="**State**"%}}: a window of neighbours output {{%/frag-li%}}
+{{%frag-li%}} {{%accent c="**Actions**"%}}: decrease or increase output {{%/frag-li%}}
+{{%frag-li%}} {{%accent c="**Reward**"%}}: 0 if the output is the same of an oracle, -1 otherwise {{%/frag-li%}}
+{{%/frag-list%}}
+{{%fragment%}}
+{{< image height=30 src="/execution-steps-2.png" >}} 
+{{%/fragment%}}
+
+{{%frag-list kind="ul"%}}
+{{%/frag-list%}}
+
+---
+
+# Addressing Collective Computation Efficency {.r-fit-text}
+### Distributed Schedulers through Q-Learning {.accent} 
+
+**Reference:** G. Aguzzi et al, {{% accent c="Addressing Collective Computations Efficiency through Reinforcement Learning" %}}
+
+{{% vertical end %}}

@@ -2,6 +2,7 @@
 weight = 3
 +++
 
+
 {{% vertical start %}}
 
 # Research Directions
@@ -64,6 +65,7 @@ weight = 3
 {{% /col %}}
 {{% /row %}}
 
+
 ---
 
 
@@ -95,6 +97,7 @@ weight = 3
 {{% frag-li %}} {{% good c="{{% fa thumbs-up %}}" %}} Improve **{{%accent c="efficiency & efficacy" %}}** {{% /frag-li %}}
 {{% frag-li %}} {{% good c="{{% fa thumbs-up %}}" %}} Mixed-approach, let machine learn the **{{%accent c="unknown" %}}** {{% /frag-li %}}
 {{% /frag-list %}}
+
 
 ---
 

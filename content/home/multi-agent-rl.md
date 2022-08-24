@@ -57,6 +57,16 @@ weight = 4
 
 {{% accent c="Multiple agents learn together the best policy that maximises a long term reward signal." %}}
 
+{{% row %}}
+{{% fragment class="fade-in" index="0" class="col" %}}
+{{< image height=30 src="/single-agent.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="1" class="col" %}}
+{{< image height=30 src="/multi-agent.png" >}}
+{{% /fragment %}}
+{{% /row %}}
+
+
 ---
 
 # Multi-Agent Tasks
