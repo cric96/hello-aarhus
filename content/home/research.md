@@ -108,5 +108,3 @@ weight = 3
 {{% /frag-list %}}
 
 {{% vertical end %}}
-
----
