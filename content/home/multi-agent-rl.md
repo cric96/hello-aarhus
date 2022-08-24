@@ -117,15 +117,15 @@ weight = 4
 {{% row %}}
 {{% fragment class="col" index="0" %}}
 #### Centralised Traning Centralised Execution {.highlight}
-{{< image height=10 src="/learning-scheme-clce.jpg" >}} 
+{{< image height=30 src="/learning-scheme-clce.jpg" >}} 
 {{% /fragment %}}
 {{% fragment index="1" class="col" %}}
 #### Decentralised Training Decentralised Execution {.highlight }
-{{< image height=10 src="/roadmap-step-3.png" >}} 
+{{< image height=30 src="/learning-scheme-dtde.jpg" >}} 
 {{% /fragment %}}
 {{% fragment class="col" index="2" %}}
 #### Centralised Training Decentralised Execution  {.highlight}
-{{< image height=10 src="/roadmap-step-3.png" >}} 
+{{< image height=30 src="/learning-scheme-ctde.jpg" >}} 
 {{% /fragment %}}
 {{% /row %}}
 
