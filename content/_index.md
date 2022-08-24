@@ -45,7 +45,8 @@ Don't forget to thank the audience.
 
 ---
 
-<section data-preload data-background-iframe="net.html" data-transition="zoom">
+
+{{% slide background-iframe="net.html" transition="zoom" preload="true" %}}
 
 # Table of Content
 {{% frag-list kind=ul %}}
@@ -54,8 +55,4 @@ Don't forget to thank the audience.
 {{% frag-li %}} #### Main Concept of Multi-Agent (Reinforcement) Learning {{% /frag-li %}}
 {{% frag-li %}} #### Preliminary Work & Research Directions {{% /frag-li %}}
 {{% /frag-list %}}
-
-</section>
-
-
 

@@ -3,14 +3,12 @@ weight = 1
 +++
 {{% vertical start %}}
 
-
-<section data-preload data-background-iframe="boids.html">
+{{% slide preload=true background-iframe="boids.html" transition="zoom" %}}
 
 # Cyber Phisysical Swarm
 <h3 class="accent"> <span class="fragment"> Swarm Behaviours </span> <span class="fragment"> {{< fa plus >}} </span> <span class="fragment"> Cyber-Physical Interaction </span> </h3>
-</section>
 
-{{< slide background-color="#fdf6e3">}}
+---
 
 # Context
 
@@ -32,9 +30,6 @@ weight = 1
 
 ---
 
-
-{{< slide background-color="#fdf6e3">}}
-
 # Why we care about it?
 
 {{% frag-list kind=ul %}}
@@ -50,8 +45,6 @@ weight = 1
 {{% /frag-list %}}
 
 ---
-
-{{< slide background-color="#fdf6e3">}}
 
 # Examples
 
@@ -72,7 +65,6 @@ weight = 1
 {{% /row %}}
 
 ---
-{{< slide background-color="#fdf6e3">}}
 
 # How??
 {{% frag-list kind=ul %}}
@@ -95,7 +87,6 @@ weight = 1
 
 ---
 
-{{< slide background-color="#fdf6e3">}}
 
 # Inspiration {{< fa fa arrow-right 2 >}} {{%fragment%}} {{< highlight c="Nature" >}} {{%/fragment%}}
 
@@ -119,8 +110,6 @@ weight = 1
 {{% /row %}}
 
 ---
-
-{{< slide background-color="#fdf6e3">}}
 
 # Engineering "Artifical" Swarms
 {{% frag-list kind=ul %}}

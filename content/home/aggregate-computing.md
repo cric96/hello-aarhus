@@ -2,15 +2,15 @@
 +++
 weight = 2
 +++
+
 {{% vertical start %}}
 
-<section data-preload data-background-iframe="waves.html" data-transition="zoom" data-background-color="black">
-  <h1 class="white-text"> Aggregate Computing </h1>
-  <h4 class="accent"> Programming the aggregate! </h4>
-</section>
+{{% slide preload=true background-iframe="waves.html" transition="zoom" background-color="black" %}}
 
+# Aggregate Computing {.white-text}
+#### Programming the Aggregate! {.accent}
 
-{{< slide background-color="#fdf6e3">}}
+---
 
 # Super-Condensed Overview
 **{{% highlight c="Aggregate Computing" %}}** {{< fa fa arrow-right 2 >}} A {{% accent c="top-down" %}} *{{% highlight c="global to local" %}}* {{% accent c=functional %}} progromming approach to express {{% accent c="self-organising" %}} collective behaviours
