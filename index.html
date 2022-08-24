@@ -788,6 +788,20 @@ Engineering <strong><span class='accent'>Collective Intellingence</span></strong
 </section><section>
 <h1 id="from-single-agent-to-multi-agent">From Single-Agent To Multi Agent</h1>
 <p><span class='accent'>Multiple agents learn together the best policy that maximises a long term reward signal.</span></p>
+<div class="container">
+<span class='fragment col' data-fragment-index='0'>
+  <figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/single-agent.png" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+<span class='fragment col' data-fragment-index='1'>
+  <figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/multi-agent.png" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+</div>
 </section><section>
 <h1 id="multi-agent-tasks">Multi-Agent Tasks</h1>
 <div class="container">
@@ -883,6 +897,161 @@ each agent could have <span class='accent'>different</span> <strong>capabilities
 </div>
 </section>
 </section>
+    <section><section data-shortcode-section data-transition="zoom">
+<h1 id="collective-program-sketching">Collective Program Sketching</h1>
+<h3 class="accent" id="aggregate-computing-hahahugoshortcode-s1-hbhb-hysteretic-q-learning">Aggregate Computing 
+
+  
+
+<i class="fa-solid  fa-solid  fa-plus "> </i> (Hysteretic) Q-Learning</h3>
+<p><strong>Reference:</strong> G. Aguzzi et al, <span class='accent'>Towards Reinforcement Learning-based Aggregate Computing</span></p>
+</section><section>
+<h2 class="accent" id="high-level-idea">High-Level idea</h2>
+<div class="container">
+<span class='fragment ' >
+  <h3 id="aggregate-program">Aggregate Program</h3>
+</span>
+<span class='fragment ' >
+  <h3 id="system-dynamic-specific-part-span-classaccentholespan">System-Dynamic Specific Part <span class='accent'>(Hole)</span></h3>
+</span>
+<span class='fragment ' >
+  <h3 id="fill-the-hole-through-span-classaccentexperiencespan">Fill the Hole through <span class='accent'>Experience</span></h3>
+</span>
+</div>
+</section><section>
+<h1 id="execution-model">Execution Model</h1>
+<h2 class="accent" id="revised">Revised</h2>
+
+<div class="col r-stack">
+<span class='fragment fade-in' data-fragment-index='0'>
+  <figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/execution-steps-0.png" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+<span class='fragment fade-in' data-fragment-index='1'>
+  <figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/execution-steps-1.png" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+<span class='fragment fade-in' data-fragment-index='2'>
+  <figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/execution-steps-2.png" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+
+</div>
+</section><section>
+<h1 id="learning-settings">Learning Settings</h1>
+<div class="container">
+<span class='fragment col' data-fragment-index='0'>
+  <p><span class='accent'><strong>Multi Agent Systems</strong></span></p>
+</span>
+<span class='fragment col' data-fragment-index='1'>
+  <p><span class='accent'><strong>Homogenous Behaviour</strong></span></p>
+</span>
+<span class='fragment col' data-fragment-index='2'>
+  <p><span class='accent'><strong>Centralised Traning Decentralised Execution</strong></span></p>
+</span>
+</div>
+
+<div class="col r-stack">
+<span class='fragment fade-in' data-fragment-index='3'>
+  <figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/execution-steps-0.png" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+<span class='fragment fade-in' data-fragment-index='4'>
+  <figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/execution-steps-1.png" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+<span class='fragment fade-in' data-fragment-index='5'>
+  <figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/execution-steps-2.png" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+
+</div>
+</section><section>
+<h1 id="case-study">Case Study</h1>
+<h2 class="accent" id="improve-gradient-cast">Improve Gradient Cast</h2>
+
+
+ <ul class=> 
+<li class='fragment '  style="color: #888;">
+Gradient Cast Main block for collective behavior
+</li>
+ <ul class=> 
+<li class='fragment '  style="color: #888;">
+Broadcast information
+</li>
+<li class='fragment '  style="color: #888;">
+Team formation
+</li>
+<li class='fragment '  style="color: #888;">
+High-Level pattern
+</li>
+ </ul> 
+<li class='fragment '  style="color: #888;">
+The behaviour could depends of the environment dynamics
+</li>
+ <ul class=> 
+<li class='fragment '  style="color: #888;">
+Several Issues: non-smooth output, slow-rising problem, problem with highly-dynamic nodes
+</li>
+<li class='fragment '  style="color: #888;">
+Typical approach: <span class='highlight'>ad-hoc heuristic</span>
+</li>
+ </ul> 
+
+ </ul> 
+
+</section><section>
+<h1 id="preliminary-result">Preliminary Result</h1>
+<h2 class="accent" id="handle-slow-rising-problem">Handle slow rising problem</h2>
+<p>
+
+ <ul class=> 
+<li class='fragment '  style="color: #888;">
+<span class='accent'><strong>State</strong></span>: a window of neighbours output
+</li>
+<li class='fragment '  style="color: #888;">
+<span class='accent'><strong>Actions</strong></span>: decrease or increase output
+</li>
+<li class='fragment '  style="color: #888;">
+<span class='accent'><strong>Reward</strong></span>: 0 if the output is the same of an oracle, -1 otherwise
+</li>
+
+ </ul> 
+
+
+
+<span class='fragment ' >
+  <figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/execution-steps-2.png" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+
+</span>
+</p>
+
+
+ <ul class=> 
+
+ </ul> 
+
+</section><section>
+<h1 class="r-fit-text" id="addressing-collective-computation-efficency">Addressing Collective Computation Efficency</h1>
+<h3 class="accent" id="distributed-schedulers-through-q-learning">Distributed Schedulers through Q-Learning</h3>
+<p><strong>Reference:</strong> G. Aguzzi et al, <span class='accent'>Addressing Collective Computations Efficiency through Reinforcement Learning</span></p>
+</section>
+</section>
 
 </div>
       
@@ -892,7 +1061,7 @@ each agent could have <span class='accent'>different</span> <strong>capabilities
 
 <a href="https://cric96.github.io/hello-aarhus/reveal-js/dist/print/" id="print-location" style="display: none;"></a>
 
-<script type="application/json" id="reveal-hugo-site-params">{"custom_theme":"custom-theme.scss","custom_theme_compile":true,"custom_theme_options":{"enablesourcemap":true,"targetpath":"css/custom-theme.css"},"height":900,"highlight_theme":"solarized-dark","history":true,"slide_number":false,"theme":"serif","transition":"slide","transition_speed":"fast","width":1440}</script>
+<script type="application/json" id="reveal-hugo-site-params">{"custom_theme":"custom-theme.scss","custom_theme_compile":true,"custom_theme_options":{"enablesourcemap":true,"targetpath":"css/custom-theme.css"},"height":900,"highlight_theme":"solarized-dark","history":true,"mermaid":[{"startOnLoad":false,"theme":"default"}],"slide_number":false,"theme":"serif","transition":"slide","transition_speed":"fast","width":1440}</script>
 <script type="application/json" id="reveal-hugo-page-params">null</script>
 
 <script src="https://cric96.github.io/hello-aarhus/reveal-js/dist/reveal.js"></script>
@@ -961,9 +1130,12 @@ each agent could have <span class='accent'>different</span> <strong>capabilities
 
 
 
+
+
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script>
-    mermaid.initialize({startOnLoad: false});
+    mermaid.initialize({"startOnLoad":false,"theme":"default"});
+
     let render = (event) => {
       let mermaidElems = event.currentSlide.querySelectorAll('.mermaid');
       if (!mermaidElems.length){
