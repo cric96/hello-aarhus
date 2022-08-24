@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cric96.github.io/hello-aarhus/reveal-js/dist/reset.css">
 <link rel="stylesheet" href="https://cric96.github.io/hello-aarhus/reveal-js/dist/reveal.css">
-  <link rel="stylesheet" href="https://cric96.github.io/hello-aarhus/css/custom-theme.min.ca77986f3594ff77840b0c14cb5225fd461f89e85dcae6f78273edfac074fba0.css" id="theme"><link rel="stylesheet" href="https://cric96.github.io/hello-aarhus/highlight-js/solarized-dark.min.css">
+  <link rel="stylesheet" href="https://cric96.github.io/hello-aarhus/css/custom-theme.min.e377ba68039962908f178ee04a13e2021ce54d1ad65eb2ab510c094c05398149.css" id="theme"><link rel="stylesheet" href="https://cric96.github.io/hello-aarhus/highlight-js/solarized-dark.min.css">
     
 <link rel="stylesheet" href="https://gitcdn.link/repo/DanySK/css-blur-animation/master/blur.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
@@ -34,7 +34,7 @@
   
 
 <i class="fab  fa-fab  fa-github  fa-2 "> </i> <a href="https://github.com/cric96">@cric96</a></p>
-<p>2022-08-23</p>
+<p>2022-08-24</p>
 
 
 
@@ -742,10 +742,168 @@ Engineering <strong><span class='accent'>Collective Intellingence</span></strong
 </li>
  </ul> 
 </section>
-</section><section>
 
 </span>
 </p>
+</section>
+    <section data-shortcode-section data-transition="zoom">
+<section data-noprocess data-shortcode-slide
+      data-background-image="/background-marl.jpg"
+      data-background-opacity="0.3">
+<h1 class="r-fit-text" id="multi-agent-reinforcement-learning">Multi-Agent Reinforcement Learning</h1>
+<h2 class="accent" id="overview">Overview</h2>
+</section><section>
+<h2 id="reinforcement-learning">Reinforcement Learning</h2>
+<p>
+<div class="col r-stack">
+<span class='fragment ' data-fragment-index='0'>
+  <figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/rl-1.png" style="height:315px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+<span class='fragment ' data-fragment-index='1'>
+  <figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/rl-2.png" style="height:315px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+<span class='fragment ' data-fragment-index='2'>
+  <figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/rl-3.png" style="height:315px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+
+</div>
+
+
+<span class='fragment ' data-fragment-index='3'>
+  <p><strong>Simple</strong>, but <strong>flexible</strong> and <span class='accent'><strong>extremely powerful</strong></span></p>
+
+</span>
+</p>
+<div class="container">
+<span class='fragment col' data-fragment-index='4'>
+  <h4 id="dqn-in-atari">DQN in Atari</h4>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/TmPfTpjtdgg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</span>
+<span class='fragment col' data-fragment-index='5'>
+  <h4 id="alpha-zero">Alpha Zero</h4>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/7L2sUGcOgh0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</span>
+<span class='fragment col' data-fragment-index='6'>
+  <h4 id="hike-and-seek">Hike And Seek</h4>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/kopoLzvh5jY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</span>
+</div>
+</section><section>
+<h1 id="from-single-agent-to-multi-agent">From Single-Agent To Multi Agent</h1>
+<p><span class='accent'>Multiple agents learn together the best policy that maximises a long term reward signal.</span></p>
+</section><section>
+<h1 id="multi-agent-tasks">Multi-Agent Tasks</h1>
+<div class="container">
+<span class='fragment col' data-fragment-index='0'>
+  <div class="col r-stack">
+<span class='fragment ' data-fragment-index='0'>
+  <h3 class="highlight" id="cooperative">Cooperative</h3>
+</span>
+<span class='fragment ' data-fragment-index='3'>
+  <h3 class="accent" id="cooperative">Cooperative</h3>
+</span>
+</div>
+<figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/cooperative.jpg" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+<span class='fragment col' data-fragment-index='1'>
+  <div class="col ">
+<h3 class="highlight" id="competitive">Competitive</h3>
+</div>
+<figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/competitive.jpg" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+<span class='fragment col' data-fragment-index='2'>
+  <div class="col ">
+<h3 class="highlight" id="mixed">Mixed</h3>
+</div>
+<figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/mixed.jpg" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+</div>
+</section><section>
+<h1 id="cooperative-task">Cooperative Task</h1>
+<div class="container">
+<span class='fragment col' data-fragment-index='0'>
+  <div class="col r-stack">
+<p><span class='fragment '
+data-fragment-index='0'></p>
+  <h3 id="homogenous">Homogenous</h3>
+</span>
+<p><span class='fragment '
+data-fragment-index='6'></p>
+  <h3 class="accent" id="homogenous">Homogenous</h3>
+</span>
+</div>
+ <ul class=> 
+<li class='fragment fade-in' data-fragment-index='2' style="color: #888;">
+each agent has the <span class='accent'>same</span> <strong>capabilities</strong>
+</li>
+<li class='fragment fade-in' data-fragment-index='3' style="color: #888;">
+<strong><span class='accent'>goal</span></strong>: find the same policy that maximise the collective good
+</li>
+<li class='fragment fade-in' data-fragment-index='6' style="color: #888;">
+typical choice for swarm-like systems
+</li>
+ </ul> 
+</span>
+<span class='fragment col' data-fragment-index='1'>
+  <h3 id="heterogeneous">Heterogeneous</h3>
+<li class='fragment fade-in' data-fragment-index='4' style="color: #888;">
+each agent could have <span class='accent'>different</span> <strong>capabilities</strong>
+</li>
+<li class='fragment fade-in' data-fragment-index='5' style="color: #888;">
+<strong><span class='accent'>goal</span></strong>: maximise each policy to maximise the collective good
+</li>
+</span>
+</div>
+</section><section>
+<h1 id="learning-settings">Learning Settings</h1>
+<div class="container">
+<span class='fragment col' data-fragment-index='0'>
+  <h4 class="highlight" id="centralised-traning-centralised-execution">Centralised Traning Centralised Execution</h4>
+<figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/learning-scheme-clce.jpg" style="height:90px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+<span class='fragment col' data-fragment-index='1'>
+  <h4 class="highlight" id="decentralised-training-decentralised-execution">Decentralised Training Decentralised Execution</h4>
+<figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/roadmap-step-3.png" style="height:90px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+<span class='fragment col' data-fragment-index='2'>
+  <h4 class="highlight" id="centralised-training-decentralised-execution">Centralised Training Decentralised Execution </h4>
+<figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/roadmap-step-3.png" style="height:90px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+</div>
+</section>
 </section>
 
 </div>
@@ -809,6 +967,8 @@ Engineering <strong><span class='accent'>Collective Intellingence</span></strong
     camelize(revealHugoPlugins));
   Reveal.initialize(options);
 </script>
+
+
 
 
 
