@@ -23,7 +23,7 @@ jobs:
       #- name: Install chromium
       #  run: sudo apt install -y chromium-browser
       - name: Produce PDF
-        run: google-chrome-stable --headless --run-all-compositor-stages-before-draw --disable-gpu --virtual-time-budget=10000 --print-to-pdf=mslides.pdf ${{steps.gh-pages-url.outputs.URL}}\?print-pdf\~
+        run: google-chrome-stable --headless --run-all-compositor-stages-before-draw --disable-gpu --virtual-time-budget=10000 --print-to-pdf=mslides.pdf ${{steps.gh-pages-url.outputs.URL}}\?print-pdf\&pdfSeparateFragments\=false\#/
         
       #- name: Produce slides
       #  run: npx decktape automatic ${{steps.gh-pages-url.outputs.URL}}/ slides.pdf -s 1024x768 --chrome-arg=--enable-gpu --chrome-arg=--use-gl=angle
