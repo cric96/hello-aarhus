@@ -117,4 +117,67 @@ weight = 5
 
 **Reference:** G. Aguzzi et al, {{% accent c="Addressing Collective Computations Efficiency through Reinforcement Learning" %}}
 
+---
+
+# High-Level Idea
+### Adjust local scheduling following environment condition {.accent}
+{{% frag-list kind="ul" %}}
+{{% frag-li "fade-in" "0" %}} The Aggregate Computing model {{%accent c="does not"%}} enforce a global-synchronization {{% /frag-li %}}
+{{% frag-li "fade-in" "1" %}} Current Implementation {{% highlight c="{{% fa solid arrow-right %}}" %}} Periodic possibly async execution {{% /frag-li %}}
+{{% frag-li "fade-in" "2" %}} Frontier: {{% accent c="Time-Fluid Field-Based Coordination through Programmable Distributed Schedulers" %}}   {{% /frag-li %}}
+{{% frag-li "fade-in" "3" %}} **{{% accent c="Reinforcement Learning"%}}** agent tunes the local node schedulers {{% /frag-li %}}
+{{% /frag-list %}}
+
+---
+
+# Integration perspective
+### Learning goals {.accent}
+{{% frag-list kind="ul" %}}
+{{% frag-li "fade-in" %}} Reducing the collective power consumption {{%frag c="{{% fa solid arrow-right %}} **{{% accent c=green %}} {{% accent c=computing %}}** " %}} {{% /frag-li %}}
+{{% frag-li "fade-in" %}} Improve collective computation convergence time {{% /frag-li %}}
+{{% frag-li "fade-in" %}} Multi-Objective problems {{% /frag-li %}}
+{{% frag-list kind="ul" %}}
+{{% frag-li %}} Configurable balance between performance w.r.t. consumption {{% /frag-li %}}
+{{% /frag-list %}}
+
+{{% /frag-list %}}
+
+---
+
+# Case Study
+### Reduce the Power consumption of self-stabilizing Building blocks {.accent}
+
+{{% frag-list kind="ul" %}}
+{{%frag-li%}} {{%accent c="**State**"%}}: local output derivate {{%/frag-li%}}
+{{%frag-li%}} {{%accent c="**Actions**"%}}: next wake-up time {{%/frag-li%}}
+{{%frag-li%}} {{%accent c="**Reward**"%}}: near 0 if the output is stable, -1 in the other cases  {{%/frag-li%}}
+{{% /frag-list %}}
+
+{{%row%}}
+
+{{% fragment class="col" %}}
+#### Reinforcement Learning -- middleware {.highlight}
+{{< image height=30 src="/cooperative.jpg" >}} 
+{{% /fragment %}}
+
+{{% fragment class="col" %}}
+#### Result overview {.highlight}
+{{< image height=30 src="/competitive.jpg" >}} 
+{{% /fragment %}}
+
+{{% /row %}}
+
+---
+
+# What we learn so far
+## Challenges {.accent}
+
+{{%frag-list kind="ul"%}}
+{{%frag-li%}} Multi-agent credit assignment problem {{%/frag-li%}}
+{{%frag-li%}} Multi-objective goals {{%/frag-li%}}
+{{%frag-li%}} Hand-crafted state encoding are inadequate (variable neighborhood) {{%/frag-li%}}
+{{%frag-li%}} Environment partial observability {{%/frag-li%}}
+
+{{%/frag-list%}}
+
 {{% vertical end %}}

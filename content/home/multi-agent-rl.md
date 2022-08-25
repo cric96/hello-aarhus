@@ -53,9 +53,9 @@ weight = 4
 
 ---
 
-# From Single-Agent To Multi Agent
+# From Single-Agent To Multi-Agent
 
-{{% accent c="Multiple agents learn together the best policy that maximises a long term reward signal." %}}
+{{% accent c="Multiple agents learn together the best policy that maximises a long-term reward signal." %}}
 
 {{% row %}}
 {{% fragment class="fade-in" index="0" class="col" %}}
@@ -127,7 +127,7 @@ weight = 4
 
 {{% row %}}
 {{% fragment class="col" index="0" %}}
-#### Centralised Traning Centralised Execution {.highlight}
+#### Centralised Training Centralised Execution {.highlight}
 {{< image height=30 src="/learning-scheme-clce.jpg" >}} 
 {{% /fragment %}}
 {{% fragment index="1" class="col" %}}

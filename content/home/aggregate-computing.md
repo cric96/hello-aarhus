@@ -13,7 +13,7 @@ weight = 2
 ---
 
 # Super-Condensed Overview
-**{{% highlight c="Aggregate Computing" %}}** {{< fa fa arrow-right 2 >}} A {{% accent c="top-down" %}} *{{% highlight c="global to local" %}}* {{% accent c=functional %}} progromming approach to express {{% accent c="self-organising" %}} collective behaviours
+**{{% highlight c="Aggregate Computing" %}}** {{< fa fa arrow-right 2 >}} A {{% accent c="top-down" %}} *{{% highlight c="global to local" %}}* {{% accent c=functional %}} programming approach to express {{% accent c="self-organising" %}} collective behaviours
 
 
 {{% row %}}
@@ -77,8 +77,8 @@ Distributed space-time data structure {{% accent c="$ \phi: D \rightarrow V $" %
 def rep[X](init: => X)(evolution: X => X): X
 ```
 {{% /fragment %}}
-{{% fragment class="col" %}}  
-**Neighborhood Interaction**
+{{% fragment class="col" %}} 
+**Neighbourhood Interaction**
 
 ```scala
 def nbr[X](query: => X): X
@@ -113,7 +113,7 @@ Proactive and Periodioc execution of **{{% accent c="rounds" %}}**
 {{% frag-li "fade-in" "0" %}} 
 #### Context Acquisition {.highlight}
 - Sensors Data
-- Neighborhood Information
+- Neighbourhood Information
 
 {{% /frag-li %}}
 
@@ -180,7 +180,7 @@ Distributed leader election
 {{% /fragment %}}
 
 {{% fragment class="col" %}}
-#### Distributed Reslint Sensing
+#### Distributed Resilient Sensing
 {{% highlight c="SCR pattern" %}}
 {{% /fragment %}}
 

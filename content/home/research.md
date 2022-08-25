@@ -104,7 +104,7 @@ weight = 3
 # Broad Impact
 
 {{% frag-list kind="ul" %}}
-{{% frag-li %}} Engineering **{{% accent c="Collective Intellingence" %}}** {{% /frag-li %}}
+{{% frag-li %}} Engineering **{{% accent c="Collective Intelligence" %}}** {{% /frag-li %}}
 {{% frag-li %}} **{{% accent c="Green" %}}** Computing{{% /frag-li %}}
 {{% frag-li %}} **{{% accent c="Multi-Agent" %}}** Reinforcement Learning {{% /frag-li %}}
 {{% frag-li %}} **{{% accent c="Hybrid" %}}** Programming Paradigm {{% /frag-li %}}
