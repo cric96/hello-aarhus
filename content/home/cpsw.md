@@ -15,15 +15,15 @@ weight = 1
 {{% row %}}
 {{% fragment class="col" %}} 
 #### Many Networked Agents
-{{< image height="30" src="/cas.gif" >}} 
+{{< image height="30" src="/network.png" >}} 
 {{% /fragment %}}
 {{% fragment class="col" %}} 
 #### Cyber Physical Systems
-{{< image height="30" src="/cas.gif" >}} 
+{{< image height="30" src="/cps.png" >}} 
 {{% /fragment %}}
 {{% fragment class="col" %}} 
 #### Collective Behaviour  
-{{< image height="30" src="/cas.gif" >}} 
+{{< image height="30" src="/ci.png" >}} 
 {{% /fragment %}}
 
 {{% /row %}}
@@ -52,15 +52,15 @@ weight = 1
 {{% row %}}
 {{% fragment class="col" %}}
 ### Swarm Robotics
-{{< image height="30" src="/cas.gif">}} 
+{{< image height="30" src="/swarm.jpg">}} 
 {{% /fragment %}}
 {{% fragment class="col" %}}
 ### Crowd Engineering
-{{< image height="30" src="/cas.gif">}} 
+{{< image height="30" src="/crowd.png">}} 
 {{% /fragment %}}
 {{% fragment class="col" %}}
 ### Smart Cities
-{{< image height="30" src="/cas.gif">}} 
+{{< image height="30" src="/smart-city.jpg">}} 
 {{% /fragment %}}
 {{% /row %}}
 
