@@ -34,7 +34,7 @@
   
 
 <i class="fab  fa-fab  fa-github  fa-2 "> </i> <a href="https://github.com/cric96">@cric96</a></p>
-<p>2022-08-24</p>
+<p>2022-08-25</p>
 
 
 
@@ -322,7 +322,7 @@ Good abstractions
 <h1 id="super-condensed-overview">Super-Condensed Overview</h1>
 <p><strong><span class='highlight'>Aggregate Computing</span></strong> 
 
-<i class="fas  fa-fa  fa-arrow-right  fa-2 "> </i> A <span class='accent'>top-down</span> <em><span class='highlight'>global to local</span></em> <span class='accent'>functional</span> progromming approach to express <span class='accent'>self-organising</span> collective behaviours</p>
+<i class="fas  fa-fa  fa-arrow-right  fa-2 "> </i> A <span class='accent'>top-down</span> <em><span class='highlight'>global to local</span></em> <span class='accent'>functional</span> programming approach to express <span class='accent'>self-organising</span> collective behaviours</p>
 <div class="container">
 <span class='fragment col' >
   <h3 class="accent" id="computational-field">Computational Field</h3>
@@ -404,7 +404,7 @@ Good abstractions
 </span></span></code></pre></div>
 </span>
 <span class='fragment col' >
-  <p><strong>Neighborhood Interaction</strong></p>
+  <p><strong>Neighbourhood Interaction</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="nohighlight" data-noescape><span style="display:flex;"><span><span style="color:#719e07">def</span> nbr<span style="color:#719e07">[</span><span style="color:#dc322f">X</span><span style="color:#719e07">](</span>query<span style="color:#719e07">:</span> <span style="color:#719e07">=&gt;</span> X<span style="color:#719e07">)</span><span style="color:#719e07">:</span> <span style="color:#dc322f">X</span>
 </span></span><span style="display:flex;"><span><span style="color:#719e07">def</span> foldhood<span style="color:#719e07">[</span><span style="color:#dc322f">X</span><span style="color:#719e07">]</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#719e07">(</span>init<span style="color:#719e07">:</span> <span style="color:#719e07">=&gt;</span> X<span style="color:#719e07">)</span>
@@ -445,7 +445,7 @@ Good abstractions
 <h4 class="highlight" id="context-acquisition">Context Acquisition</h4>
 <ul>
 <li>Sensors Data</li>
-<li>Neighborhood Information</li>
+<li>Neighbourhood Information</li>
 </ul>
 </li>
 <li class='fragment fade-in' data-fragment-index='1' style="color: #888;">
@@ -517,7 +517,7 @@ Good abstractions
 <p><span class='highlight'>High-Level API</span></p>
 </span>
 <span class='fragment col' >
-  <h4 id="distributed-reslint-sensing">Distributed Reslint Sensing</h4>
+  <h4 id="distributed-resilient-sensing">Distributed Resilient Sensing</h4>
 <p><span class='highlight'>SCR pattern</span></p>
 </span>
 <span class='fragment col' >
@@ -710,7 +710,7 @@ Simulation Framework: <a href="https://scafi.github.io/web">Playground</a>
 <h1 id="broad-impact">Broad Impact</h1>
  <ul class=> 
 <li class='fragment '  style="color: #888;">
-Engineering <strong><span class='accent'>Collective Intellingence</span></strong>
+Engineering <strong><span class='accent'>Collective Intelligence</span></strong>
 </li>
 <li class='fragment '  style="color: #888;">
 <strong><span class='accent'>Green</span></strong> Computing
@@ -786,8 +786,8 @@ Engineering <strong><span class='accent'>Collective Intellingence</span></strong
 </span>
 </div>
 </section><section>
-<h1 id="from-single-agent-to-multi-agent">From Single-Agent To Multi Agent</h1>
-<p><span class='accent'>Multiple agents learn together the best policy that maximises a long term reward signal.</span></p>
+<h1 id="from-single-agent-to-multi-agent">From Single-Agent To Multi-Agent</h1>
+<p><span class='accent'>Multiple agents learn together the best policy that maximises a long-term reward signal.</span></p>
 <div class="container">
 <span class='fragment col' data-fragment-index='0'>
   <figure class="">
@@ -874,7 +874,7 @@ each agent could have <span class='accent'>different</span> <strong>capabilities
 <h1 id="learning-settings">Learning Settings</h1>
 <div class="container">
 <span class='fragment col' data-fragment-index='0'>
-  <h4 class="highlight" id="centralised-traning-centralised-execution">Centralised Traning Centralised Execution</h4>
+  <h4 class="highlight" id="centralised-training-centralised-execution">Centralised Training Centralised Execution</h4>
 <figure class="">
     <img src="https://cric96.github.io/hello-aarhus/learning-scheme-clce.jpg" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
     <figcaption>  </figcaption>
@@ -1050,6 +1050,105 @@ Typical approach: <span class='highlight'>ad-hoc heuristic</span>
 <h1 class="r-fit-text" id="addressing-collective-computation-efficency">Addressing Collective Computation Efficency</h1>
 <h3 class="accent" id="distributed-schedulers-through-q-learning">Distributed Schedulers through Q-Learning</h3>
 <p><strong>Reference:</strong> G. Aguzzi et al, <span class='accent'>Addressing Collective Computations Efficiency through Reinforcement Learning</span></p>
+</section><section>
+<h1 id="high-level-idea-1">High-Level Idea</h1>
+<h3 class="accent" id="adjust-local-scheduling-following-environment-condition">Adjust local scheduling following environment condition</h3>
+
+
+ <ul class=> 
+<li class='fragment fade-in' data-fragment-index='0' style="color: #888;">
+The Aggregate Computing model <span class='accent'>does not</span> enforce a global-synchronization
+</li>
+<li class='fragment fade-in' data-fragment-index='1' style="color: #888;">
+Current Implementation <span class='highlight'><i class="fa-solid  fa-solid  fa-arrow-right "> </i></span> Periodic possibly async execution
+</li>
+<li class='fragment fade-in' data-fragment-index='2' style="color: #888;">
+Frontier: <span class='accent'>Time-Fluid Field-Based Coordination through Programmable Distributed Schedulers</span>
+</li>
+<li class='fragment fade-in' data-fragment-index='3' style="color: #888;">
+<strong><span class='accent'>Reinforcement Learning</span></strong> agent tunes the local node schedulers
+</li>
+
+ </ul> 
+
+</section><section>
+<h1 id="integration-perspective">Integration perspective</h1>
+<h3 class="accent" id="learning-goals">Learning goals</h3>
+
+
+ <ul class=> 
+<li class='fragment fade-in'  style="color: #888;">
+Reducing the collective power consumption <span class='fragment ' ><i class="fa-solid  fa-solid  fa-arrow-right "> </i> <strong><span class='accent'>green</span> <span class='accent'>computing</span></strong></span>
+</li>
+<li class='fragment fade-in'  style="color: #888;">
+Improve collective computation convergence time
+</li>
+<li class='fragment fade-in'  style="color: #888;">
+Multi-Objective problems
+</li>
+ <ul class=> 
+<li class='fragment '  style="color: #888;">
+Configurable balance between performance w.r.t. consumption
+</li>
+ </ul> 
+
+ </ul> 
+
+</section><section>
+<h1 id="case-study-1">Case Study</h1>
+<h3 class="accent" id="reduce-the-power-consumption-of-self-stabilizing-building-blocks">Reduce the Power consumption of self-stabilizing Building blocks</h3>
+
+
+ <ul class=> 
+<li class='fragment '  style="color: #888;">
+<span class='accent'><strong>State</strong></span>: local output derivate
+</li>
+<li class='fragment '  style="color: #888;">
+<span class='accent'><strong>Actions</strong></span>: next wake-up time
+</li>
+<li class='fragment '  style="color: #888;">
+<span class='accent'><strong>Reward</strong></span>: near 0 if the output is stable, -1 in the other cases
+</li>
+
+ </ul> 
+
+<div class="container">
+<span class='fragment col' >
+  <h4 class="highlight" id="reinforcement-learning----middleware">Reinforcement Learning &ndash; middleware</h4>
+<figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/cooperative.jpg" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+<span class='fragment col' >
+  <h4 class="highlight" id="result-overview">Result overview</h4>
+<figure class="">
+    <img src="https://cric96.github.io/hello-aarhus/competitive.jpg" style="height:270px; ; max-width: 95vw;max-height: 80vh;object-fit: contain;" >
+    <figcaption>  </figcaption>
+  </figure>
+</span>
+</div>
+</section><section>
+<h1 id="what-we-learn-so-far">What we learn so far</h1>
+<h2 class="accent" id="challenges">Challenges</h2>
+
+
+ <ul class=> 
+<li class='fragment '  style="color: #888;">
+Multi-agent credit assignment problem
+</li>
+<li class='fragment '  style="color: #888;">
+Multi-objective goals
+</li>
+<li class='fragment '  style="color: #888;">
+Hand-crafted state encoding are inadequate (variable neighborhood)
+</li>
+<li class='fragment '  style="color: #888;">
+Environment partial observability
+</li>
+
+ </ul> 
+
 </section>
 </section>
 
