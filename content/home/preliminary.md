@@ -181,3 +181,9 @@ weight = 5
 {{%/frag-list%}}
 
 {{% vertical end %}}
+
+---
+
+{{% slide preload=true background-iframe="waves-thanks.html" transition="zoom" background-color="black" %}}
+
+# Thank you! {.white-text }

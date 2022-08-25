@@ -30,7 +30,7 @@ weight = 1
 
 ---
 
-# Why we care about it?
+# Why we do care about it?
 
 {{% frag-list kind=ul %}}
 
