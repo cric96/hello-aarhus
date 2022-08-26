@@ -5,7 +5,7 @@ weight = 1
 
 {{% slide preload=true background-iframe="boids.html" transition="zoom" %}}
 
-# Cyber Phisysical Swarm
+# Cyber-Physical Swarm
 <h3 class="accent"> <span class="fragment"> Swarm Behaviours </span> <span class="fragment"> {{< fa plus >}} </span> <span class="fragment"> Cyber-Physical Interaction </span> </h3>
 
 ---
@@ -18,7 +18,7 @@ weight = 1
 {{< image height="30" src="/network.png" >}} 
 {{% /fragment %}}
 {{% fragment class="col" %}} 
-#### Cyber Physical Systems
+#### Cyber-Physical Systems
 {{< image height="30" src="/cps.png" >}} 
 {{% /fragment %}}
 {{% fragment class="col" %}} 
@@ -34,7 +34,7 @@ weight = 1
 
 {{% frag-list kind=ul %}}
 
-{{% frag-li %}} Pervasive/Obiquitous Computing {{% /frag-li %}}
+{{% frag-li %}} Pervasive/Ubiquitous Computing {{% /frag-li %}}
 {{% frag-li %}} **{{% accent c="Systems of today!" %}}** {{% /frag-li %}}
 {{% frag-list kind=ul %}}
   {{% frag-li %}} Swarm Robotics {{% /frag-li %}}
@@ -111,7 +111,7 @@ weight = 1
 
 ---
 
-# Engineering "Artifical" Swarms
+# Engineering "Artificial" Swarms
 {{% frag-list kind=ul %}}
 {{% frag-li %}} ### Model {.highlight} {{% /frag-li %}} 
 {{% frag-list kind=ul %}}

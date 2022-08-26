@@ -10,7 +10,7 @@ aliases = [
 
 +++
 
-# Engineering Cyber Physical Swarms # {class="r-fit-text" }
+# Engineering Cyber-Physical Swarms # {class="r-fit-text" }
 
 
 **Talk @ Aarhus Universitat**
