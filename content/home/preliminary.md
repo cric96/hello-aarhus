@@ -15,15 +15,19 @@ weight = 5
 
 {{%row%}}
 {{%fragment%}}
-### Aggregate Program
+{{< image height=30 src="/synthesis-1.png"  >}}
+#### Aggregate Program
 {{%/fragment%}}
 
 {{%fragment%}}
-### System-Dynamic Specific Part {{%accent c="(Hole)" %}}
+{{< image height=30 src="/synthesis-2.png"  >}}
+#### System-Dynamic Specific Part {{%accent c="(Hole)" %}}
 {{%/fragment%}}
 
 {{%fragment%}}
-### Fill the Hole through {{%accent c="Experience" %}}
+
+{{< image height=30 src="/synthesis-3.png"  >}}
+#### Fill the Hole through {{%accent c="Experience" %}}
 {{%/fragment%}}
 
 {{%/row%}}
@@ -35,13 +39,16 @@ weight = 5
 
 {{% col class="r-stack" %}}
 {{% fragment class="fade-in" index="0" %}}
-{{< image height=30 src="/execution-steps-0.png" >}} 
+{{< image height=30 src="/structure-revised-1.png" >}} 
 {{% /fragment %}}
 {{% fragment class="fade-in" index="1" %}}
-{{< image height=30 src="/execution-steps-1.png" >}} 
+{{< image height=30 src="/structure-revised-2.png" >}}
 {{% /fragment %}}
 {{% fragment class="fade-in" index="2" %}}
-{{< image height=30 src="/execution-steps-2.png" >}} 
+{{< image height=30 src="/structure-revised-3.png" >}}
+{{% /fragment %}}
+{{% fragment class="fade-in" index="3" %}}
+{{< image height=30 src="/structure-revised-4.png" >}}
 {{% /fragment %}}
 {{% /col %}}
 
@@ -64,14 +71,20 @@ weight = 5
 {{% /row %}}
 
 {{% col class="r-stack" %}}
+{{% fragment class="fade-in" index="0" %}}
+{{< image height=30 src="/algorithm-learning-1.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="1" %}}
+{{< image height=30 src="/algorithm-learning-2.png" >}} 
+{{% /fragment %}}
+{{% fragment class="fade-in" index="2" %}}
+{{< image height=30 src="/algorithm-learning-3.png" >}} 
+{{% /fragment %}}
 {{% fragment class="fade-in" index="3" %}}
-{{< image height=30 src="/execution-steps-0.png" >}} 
+{{< image height=30 src="/algorithm-learning-4.png" >}} 
 {{% /fragment %}}
 {{% fragment class="fade-in" index="4" %}}
-{{< image height=30 src="/execution-steps-1.png" >}} 
-{{% /fragment %}}
-{{% fragment class="fade-in" index="5" %}}
-{{< image height=30 src="/execution-steps-2.png" >}} 
+{{< image height=30 src="/algorithm-learning-5.png" >}} 
 {{% /fragment %}}
 {{% /col %}}
 
@@ -104,7 +117,7 @@ weight = 5
 {{%frag-li%}} {{%accent c="**Reward**"%}}: 0 if the output is the same of an oracle, -1 otherwise {{%/frag-li%}}
 {{%/frag-list%}}
 {{%fragment%}}
-{{< image height=30 src="/execution-steps-2.png" >}} 
+{{< image height=40 src="/output-many-nodes.png" >}} 
 {{%/fragment%}}
 
 {{%frag-list kind="ul"%}}
@@ -139,8 +152,12 @@ weight = 5
 {{% frag-list kind="ul" %}}
 {{% frag-li %}} Configurable balance between performance w.r.t. consumption {{% /frag-li %}}
 {{% /frag-list %}}
-
 {{% /frag-list %}}
+
+{{% fragment class="col" %}}
+#### Reinforcement Learning -- middleware {.highlight}
+{{< image height=30 src="/rl-architecture.png" >}} 
+{{% /fragment %}}
 
 ---
 
@@ -153,19 +170,12 @@ weight = 5
 {{%frag-li%}} {{%accent c="**Reward**"%}}: near 0 if the output is stable, -1 in the other cases  {{%/frag-li%}}
 {{% /frag-list %}}
 
-{{%row%}}
-
-{{% fragment class="col" %}}
-#### Reinforcement Learning -- middleware {.highlight}
-{{< image height=30 src="/cooperative.jpg" >}} 
-{{% /fragment %}}
 
 {{% fragment class="col" %}}
 #### Result overview {.highlight}
-{{< image height=30 src="/competitive.jpg" >}} 
+{{< image height=30 src="/image-rl-500-plain.png" >}} 
 {{% /fragment %}}
 
-{{% /row %}}
 
 ---
 

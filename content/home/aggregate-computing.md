@@ -73,13 +73,14 @@ Distributed space-time data structure {{% accent c="$ \phi: D \rightarrow V $" %
 {{% row %}}
 {{% fragment class="col" %}}  
 **Field Evolution**
+{{< image height=30 src="/rep.gif"  >}} 
 ```scala
 def rep[X](init: => X)(evolution: X => X): X
 ```
 {{% /fragment %}}
 {{% fragment class="col" %}} 
 **Neighbourhood Interaction**
-
+{{< image height=30 src="/nbr-foldhood.png"  >}} 
 ```scala
 def nbr[X](query: => X): X
 def foldhood[X]
@@ -90,6 +91,8 @@ def foldhood[X]
 {{% /fragment %}}
 {{% fragment class="col" %}}  
 **Domain Partition**
+
+{{< image height=30 src="/branch.png"  >}}
 ```scala
 def branch[X]
   (condition: Boolean)
@@ -151,16 +154,19 @@ Proactive and Periodioc execution of **{{% accent c="rounds" %}}**
 {{% row %}}
 {{% fragment class="col" %}}
 #### Gradient Cast
-Brodcast information from *sink* nodes
+{{< image height=30 src="/network-downstream2.png"  >}}
+Broadcast information from *sink* nodes
 {{% /fragment %}}
 
 {{% fragment class="col" %}}
-#### Collecting Cast
+#### Data collection
+{{< image height=30 src="/network-upstream.png"  >}}
 Collect data into *sink* nodes
 {{% /fragment %}}
 
 {{% fragment class="col" %}}
 #### Sparse Choice
+{{< image height=30 src="/network-candidates.png"  >}}
 Distributed leader election
 {{% /fragment %}}
 
@@ -177,18 +183,20 @@ Distributed leader election
 {{% fragment class="col" %}}
 #### Crowd Engineering
 {{% highlight c="High-Level API" %}}
+{{% youtube 606ObQwQuaE %}}
 {{% /fragment %}}
 
 {{% fragment class="col" %}}
 #### Distributed Resilient Sensing
 {{% highlight c="SCR pattern" %}}
+{{% youtube 1RzAwaGKspg %}}
 {{% /fragment %}}
 
 {{% fragment class="col" %}}
 
 #### Concurrent Activities
 {{% highlight c="Aggregate Processess" %}}
-
+{{% youtube nWLaglM0EkY %}}
 {{% /fragment %}}
 
 {{% /row %}}
