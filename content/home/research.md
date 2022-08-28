@@ -12,8 +12,8 @@ weight = 3
 {{% col %}}
 {{% frag-list kind="ul" class="no-bullet" %}}
 {{% frag-li "fade-in" "0" %}} {{% good c="{{% fa thumbs-up %}}" %}} Current status: good abstractions & building blocks {{% /frag-li %}}
-{{% frag-li "fade-in" "1" %}} {{% bad c="{{% fa thumbs-down %}}" %}} Lack of High-Level API for Swarms Behaviours {{% /frag-li %}}
-{{% frag-li "fade-in" "2" %}} {{% bad c="{{% fa thumbs-down %}}" %}} No Distributed middleware  {{% /frag-li %}}
+{{% frag-li "fade-in" "1" %}} {{% bad c="{{% fa thumbs-down %}}" %}} Prototypical Idea for High-Level API for Swarms Behaviours {{% /frag-li %}}
+{{% frag-li "fade-in" "2" %}} {{% bad c="{{% fa thumbs-down %}}" %}} Engineering a flexible middleware is hard  {{% /frag-li %}}
 {{% frag-li "fade-in" "3" %}} {{% good c="{{% fa thumbs-up %}}" %}} Machine Learning could improve the entire stack! {{% /frag-li %}}
 
 {{% /frag-list %}}

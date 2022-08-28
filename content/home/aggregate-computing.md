@@ -210,10 +210,10 @@ Distributed leader election
 {{% frag-list kind="ul" %}} 
 {{% frag-li %}} Programming Languages: [ScaFi](https://scafi.github.io/), [Protelis](http://protelis.github.io/), [FCPP](https://fcpp.github.io/) {{% /frag-li %}}
 {{% frag-li %}} Simulation Framework: [Alchemist](http://alchemistsimulator.github.io/) {{% /frag-li %}}
-{{% frag-li %}} Simulation Framework: [Playground](https://scafi.github.io/web) {{% /frag-li %}}
+{{% frag-li %}} Fast prototyping: [Playground](https://scafi.github.io/web) {{% /frag-li %}}
 
 {{% /frag-list %}} 
-{{% frag-li %}} {{% accent c="**Relevant properties have been proven !**" %}} {{% /frag-li %}}
+{{% frag-li %}} {{% accent c="**Relevant properties have been proven!**" %}} {{% /frag-li %}}
 {{% frag-list kind="ul" %}} 
 {{% frag-li %}} [Self-stabilization](https://ieeexplore.ieee.org/document/7306598) {{% /frag-li %}}
 {{% frag-li %}} [Time-space universality](https://link-springer-com.ezproxy.unibo.it/chapter/10.1007/978-3-319-92408-3_1) {{% /frag-li %}}

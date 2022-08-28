@@ -24,7 +24,8 @@ aliases = [
 {{% today %}}
 
 {{% note %}}
-Don't forget to thank the audience.
+Main points:
+a) 3 three main points, who you are, what are your main interest topics -- engineering collective behaviour in large scale and dense networked systems
 {{% /note %}}
 
 ---
@@ -43,6 +44,12 @@ Don't forget to thank the audience.
 {{% /fragment %}}
 {{% /row %}}
 
+
+{{% note %}}
+Main points:
+a) PhD student in Bologna, background in software engineering => extend this interest in very complex system that are a) networked, => articificial "collective" intellingence
+{{% /note %}}
+
 ---
 
 
@@ -56,3 +63,8 @@ Don't forget to thank the audience.
 {{% frag-li %}} #### Preliminary Work & Research Directions {{% /frag-li %}}
 {{% /frag-list %}}
 
+{{% note %}}
+Cyber-Physical swarms, what are they, why are important, inspirations, ...
+And in particular, In my research group, we developed over the year a paradigm that is called aggregate computing -- a natural way to express self-org collective behaviours 
+
+{{% /note %}}

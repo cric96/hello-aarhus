@@ -36,12 +36,7 @@ weight = 1
 
 {{% frag-li %}} Pervasive/Ubiquitous Computing {{% /frag-li %}}
 {{% frag-li %}} **{{% accent c="Systems of today!" %}}** {{% /frag-li %}}
-{{% frag-list kind=ul %}}
-  {{% frag-li %}} Swarm Robotics {{% /frag-li %}}
-  {{% frag-li %}} Smart Cities {{% /frag-li %}}
-  {{% frag-li %}} Large-Scale IoT systems {{% /frag-li %}}
-{{% /frag-list %}}
-{{% frag-li %}} Traditional "Approaches" are *{{% highlight c=inadequate %}}* {{% /frag-li %}}
+{{% frag-li %}} Traditional "Approaches" *{{% highlight c="need significant improvement" %}}* {{% /frag-li %}}
 {{% /frag-list %}}
 
 ---
@@ -133,7 +128,7 @@ weight = 1
 {{% /frag-list%}}
 {{% frag-li %}} ### Simulation {.highlight} {{% /frag-li %}}
 {{% frag-list kind=ul %}}
-{{% frag-li %}} **How can we verify our collective programs?"** {{% /frag-li %}} 
+{{% frag-li %}} **How can we verify our collective programs?** {{% /frag-li %}} 
 {{% /frag-list %}}
 {{% /frag-list %}}
 

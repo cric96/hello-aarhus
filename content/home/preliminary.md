@@ -154,10 +154,6 @@ weight = 5
 {{% /frag-list %}}
 {{% /frag-list %}}
 
-{{% fragment class="col" %}}
-#### Reinforcement Learning -- middleware {.highlight}
-{{< image height=30 src="/rl-architecture.png" >}} 
-{{% /fragment %}}
 
 ---
 
