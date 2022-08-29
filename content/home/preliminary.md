@@ -100,7 +100,7 @@ weight = 5
 {{% frag-li %}} Team formation {{% /frag-li %}}
 {{% frag-li %}} High-Level pattern {{% /frag-li %}}
 {{% /frag-list %}}
-{{% frag-li %}} The behaviour could depends of the environment dynamics {{% /frag-li %}}
+{{% frag-li %}} The behaviour could depend of the environment dynamics {{% /frag-li %}}
 {{% frag-list kind="ul" %}}
 {{% frag-li %}} Several Issues: non-smooth output, slow-rising problem, problem with highly-dynamic nodes  {{% /frag-li %}}
 {{% frag-li %}} Typical approach: {{%highlight c="ad-hoc heuristic" %}} {{% /frag-li %}}
